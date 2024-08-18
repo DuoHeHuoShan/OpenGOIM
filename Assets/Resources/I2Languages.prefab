@@ -1,0 +1,4044 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1387285522871622
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4842616824885355}
+  - component: {fileID: 114645751922945899}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4842616824885355
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387285522871622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114645751922945899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387285522871622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7554888af13e447d4982f6ad48f0af4b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbyenYa3WPmvHoHtAU_cDi-CGeV_alXQLoOEoqDabp2s5sL81zO9/exec
+  Google_SpreadsheetKey: 1K7QBvlseCYDUpgfTnjzSM8awZPOVsF0fiteOF8BW-Fw
+  Google_SpreadsheetName: I2Loc Getting Over It Localization
+  Google_LastUpdatedVersion: 1512661228337
+  GoogleUpdateFrequency: 1
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: Apply
+    TermType: 0
+    Description: Apply and save the settings
+    Languages:
+    - Apply
+    - Применить
+    - 変更を保存
+    - 应用
+    - 적용
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Back
+    TermType: 0
+    Description: Go back to the previous screen
+    Languages:
+    - Back
+    - Отменить
+    - 戻る
+    - 返回主菜单
+    - 취소
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CLEAR_TIME
+    TermType: 0
+    Description: (Time to finish the game)
+    Languages:
+    - 'Clear time: '
+    - 'Затрачено времени: '
+    - クリア時間：
+    - 游戏结束时间：
+    - '마무리할 시간:'
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_00
+    TermType: 0
+    Description:
+    Languages:
+    - Oof, you lost a lot of progress. That's a deep frustration, a real punch in the gut.
+    - Уф, вы только что потеряли много прогресса. Это глубокое разочарование, настоящий удар.
+    - お…大きく後退することに。相当なイライラですね。何とも悔しい。
+    - 噢哦，你退步了很多哦。这真是一次深刻的挫折，一次重拳啊。
+    - 으악, 많이 잃으셨습니다. 깊은 좌절감을 줄거에요, 한방 맞으셨네요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_01
+    TermType: 0
+    Description:
+    Languages:
+    - uff.... Sorry about that.
+    - уфф.... Извини.
+    - く〜…お悔やみ申し上げます。
+    - 对不起。
+    - 으… 정말 유감이에요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_02
+    TermType: 0
+    Description:
+    Languages:
+    - Oh no, it happened again. Keep on trying, don't let it get to you.
+    - О нет, это случилось снова. Пытайтесь дальше, не унывайте.
+    - あ、また。諦めないで。己を強く持って。
+    - 哦，不，又来了。保持努力，不要让它接近你。
+    - 오 안돼, 또 일어났네요, 계속해서 노력해보세요, 기죽지 마세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_03
+    TermType: 0
+    Description:
+    Languages:
+    - "This thing that we call \"failure\" is not the falling down, but the staying down.\n— Mary Pickford"
+    - "Неудачи — не когда мы падаем, а когда не можем подняться.\n— Мэри Пикфорд"
+    - "「私たちが失敗と呼ぶのは、落ちることではなく、落ちたままでいることだ」\nメリー・ピックフォード"
+    - "所谓失败，不在于跌倒，而在于一直倒着。\n—— 玛丽·毕克馥"
+    - "「우리가 \"실패\"라고 부르는 것은 추락하는 것이 아니라 내려간 채로 있는 것이다」 \n — 매릭 픽포드"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_04
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Goin' Down the Road Feeling Bad' — Cliff Carlisle
+    - (Музыка) 'Goin' Down the Road Feeling Bad' — Cliff Carlisle
+    - （音楽）「Goin Down The Road Feeling Bad」クリフ・カーライル
+    - （音乐）“走在路上感觉不好” —— Cliff Carlisle
+    - "(노래)「Goin' Down the Road Feeling Bad」\n — 클리프 칼라일"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_05
+    TermType: 0
+    Description:
+    Languages:
+    - "The soul would have no rainbow had the eyes no tears.\n— John Vance Cheney"
+    - "У души не будет радуги, если глаза не видели слез.\n— Джон Вэнс Чейни"
+    - "「目に涙が無ければ、魂に虹の橋はかからない」\nジョン・ヴァンス・チェイニー"
+    - "如果眼睛没有眼泪，灵魂就不会有彩虹。\n—— John Vance Cheney"
+    - "「눈물을 흘리지 않으면 영혼에 무지개를 품을 수 없다.」 \n — 존 벤스 체니"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_06
+    TermType: 0
+    Description:
+    Languages:
+    - "The pain I feel now is the happiness I had before. That's the deal.\n— C.S. Lewis"
+    - "Боль, которую я чувствую сейчас - это счастье, которое было у меня раньше. Таковы условия.\n— К.С. Льюис"
+    - "「今ここにある痛みは、過去の幸せだ。そうやって物事は動いている」\nC・S・ルイス"
+    - "现在我所感受到的痛苦就是我以前体会过的幸福，这是交易。\n—— C.S. Lewis"
+    - "「지금 느끼는 고통은 이전에 가졌던 행복이다. 그게 진짜다.」 \n — C.S. 루이스"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_07
+    TermType: 0
+    Description:
+    Languages:
+    - "I feel within me a peace above all earthly dignities, a still and quiet conscience.\n— William Shakespeare"
+    - "Теперь себя познал я, и в душе, мир, что превыше всех земных блаженств - спокойная, утихнувшая совесть!\n— Уильям Шекспир"
+    - "「地球で最も大きな幸福を自らの内に感じる。静寂と沈黙の良心」\nウィリアム・シェイクスピア"
+    - "我在内心深处感到一种平和，平静的良知。\n—— 威廉·莎士比亚"
+    - "「나는 내 안에 모든 평범한 위엄과, 조용한 양심의 평화를 느낀다.」 \n— 윌리엄 셰익스피어"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_08
+    TermType: 0
+    Description:
+    Languages:
+    - "You cannot now believe that you will ever feel better. But this is not true. You are sure to be happy again. \nKnowing this, truly believing it, will make you less miserable now.\n— Abraham Lincoln"
+    - "Сейчас ты не веришь что когда-нибудь тебе станет лучше. Но это не так. Ты наверняка снова будешь счастливой.\nИ зная это, действительно веря в это, тебе уже станет легче.\n— Авраам Линкольн"
+    - "「今より良くなるとは信じられないだろう。しかし、それは間違いだ。\n必ず幸せになれる時が訪れる。これを知り、本気で信じることで、今の惨めな気持ちを和らげられる」\nエイブラハム・リンカーン"
+    - "你现在不能相信你会感觉好些，但这不是真的。你肯定会再次高兴起来。\n明白这一点，真正相信它，会使你现在不那么难过。\n—— 亚伯拉罕·林肯"
+    - "「지금보다 기분이 더 나아질 것이라고 믿을 수 없겠지만, 사실이 아니다. \n당신은 다시 행복해지게 될 것이다. 진정으로 믿는다면, 이제 덜 비참해 질 것이다.」 \n— 아브라함 링컨"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_09
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Poor Me Blues' — Edna Hicks
+    - (Музыка) 'Poor Me Blues' — Edna Hicks
+    - （音楽）「Blue Me Blues」エドナ・ヒックス
+    - "（音乐）“可怜的蓝调” \n—— Edna Hicks"
+    - (노래) 「Poor Me Blues」— 에드나 힉스
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_10
+    TermType: 0
+    Description:
+    Languages:
+    - "Do not stand at my grave and cry,\nI am not there, I did not die.\n— Mary Frye"
+    - "У могилы не стойте, не плачьте, молю,\nЯ сказать вам хочу, я не там, я не сплю.\n— Мэри Фрай"
+    - "「私のお墓で泣かないでください。そこに私はいません、死んでいないのです」\nメリー・フライ"
+    - "不要站在我的坟墓里哭，我不在那里，我没有死。\n—— 玛丽·弗莱"
+    - "「내 무덤에 서서 울지 마라, 나는 거기에 없다, 나는 죽지 않았다.」 \n— 매리 프라이"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_11
+    TermType: 0
+    Description:
+    Languages:
+    - "To live is to suffer, \nto survive is to find some meaning in the suffering.\n— Friedrich Nietzsche"
+    - "Жить – значит страдать.\nИ чтобы выжить нужно найти какой-то смысл в страдании.\n— Фридрих Ницше"
+    - "「生きるのは、苦しむこと。\n 生き延びるのは、苦しみの中に意味を見出すこと」\n フリードリヒ・ニーチェ"
+    - "生活就是受苦，生存就是在苦难中找到一些意义。\n——弗里德里希·尼采"
+    - "「사는 건 고통이며, 생존은 고통 속에서 의미를 찾는 것이다.」 \n— 프리드리히 니체"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_12
+    TermType: 0
+    Description:
+    Languages:
+    - "Life is a mosaic of pleasure and pain—grief is an interval between two moments of joy. \nPeace is the interlude between two wars. You have no rose without a thorn; the diligent picker will avoid the pricks and gather the flower — Sathya Sai Baba"
+    - "Жизнь - это мозаика из удовольствия и боли, горе - это промежуток между двумя моментами радости.\nМир - это перерыв между двумя войнами. Не бывает роз без шипов; прилежный садовник, не уколовшись, соберёт цветы. — Сатья Саи Баба"
+    - "「人生は喜びと苦しみのタイルである - 悲しみは2つの喜びの間にある小休止。\n 平和は2つの戦争の間にある幕間である。棘のないバラはない。勤勉な労働者は、棘を避け、花を摘む」\nサティヤ・サイ・ババ"
+    - "生命是快乐和痛苦的镶嵌—悲伤是两个欢乐时刻之间的间隔。\n 和平是两次战争之间的间隔。没有不带刺的玫瑰；勤奋的采摘者将避免刺并且收集到花。\n——Sathya Sai Baba"
+    - "「인생은 즐거움과 고통의 모자이크이며- 슬픔은 기쁜 순간들 사이의 휴식기간이다. 평화는 두 전쟁 사이의 단서이다. \n가시가 없는 장미는 없다; 부지런한 수확자는 가시를 피해 꽃을 모을 것이다 」\n— 사티야 사이 바바"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_13
+    TermType: 0
+    Description:
+    Languages:
+    - "Sorrow is my own yard / where the new grass / flames as it has flamed \noften before but not / with the cold fire / that closes round me this year. \n— William Carlos Williams"
+    - "Печаль мой сад / где молодые травы / пылают как и пылали\nчасто и раньше, но не / холодным огнем / что сковывает меня в этом году.\n— Уильям Карлос Уильямс"
+    - "「悲しみは私の庭だ。そこで新たな草が芽吹き、冷たい火とともに、かつて繁く燃え盛っていたかのように輝きを放ち、今年、私の周りに寄り集まる」\n ウィリアム・カルロス・ウィリアムズ"
+    - "忧伤是我自己的庭院，新的草像火焰一样往上窜，像以往一样，但以往却不像今年，以凄凉的火，围绕着我。\n——威廉·卡洛斯·威廉姆斯"
+    - "「슬픔은 나 자신의 마당이다\n새로운 풀\n화염에 전에는 자주 타올랐지만\n차가운 불에\n일 년 내내 나를 에워싸고 있다 」\n— 윌리엄 카를로스 윌리엄스"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_14
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Whoops a Doodle' - Buddy Weed and His Trio
+    - (Музыка) 'Whoops a Doodle' - Buddy Weed and His Trio
+    - （音楽）「Whoops a Doodle」Buddy Weed and His Trio
+    - （音乐）“哎呀，一个涂鸦” —— Buddy Weed 和他的三重奏
+    - (노래) 「Whoops a Doodle」— 버디 위드와 그의 트리오
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_15
+    TermType: 0
+    Description:
+    Languages:
+    - "Of all sad words of tongue or pen, the saddest are these, 'It might have been.”  \n— John Greenleaf Whittier"
+    - "Из слов всевозможных, что сходят с пера, грустней быть не может, чем \"если б тогда...\".\n— Джон Гринлиф Уиттиер"
+    - "あらゆる言葉の中で一番悲しいものは、「もし、あの時」\nジョン・グリーンリーフ・ホイッティア"
+    - "在所有伤心的舌头或笔的话语中，最可悲的是，“可能是这样的”。 \n-—— John Greenleaf Whittier"
+    - "「말이든 글이든 인간의 언어 중 가장 슬픈 말은, '아 그때 해볼걸'이다.」 \n— 존 그린리프 위티어"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_16
+    TermType: 0
+    Description:
+    Languages:
+    - "If you try to please audiences, uncritically accepting their tastes, \nit can only mean that you have no respect for them.\n— Andrei Tarkovsky"
+    - "Ради того чтобы угодить зрителю, я не могу менять этот язык и подстраиваться к публике.\nЕсли я сделаю это, то не буду уважать ни зрителя, ни себя.\n— Андрей Тарковский"
+    - "「妄信的に好みを受け入れて、観客を喜ばせるのは、彼らに対する尊敬がないことを意味する」\n アンドレイ・タルコフスキー"
+    - "如果你试图取悦观众，不加批判地接受他们的品味，那只能说你不尊重他们。\n——安德烈·塔可夫斯基"
+    - "「청중을 기쁘게 해주고 싶다면, 무 비판적으로 그들의 취향을 받아들여라, \n그것은 당신이 그들을 존경하지 않는다는 것을 의미할 수도 있다.」 \n—안드레이 타르코프스키"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_17
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Born To Lose' - Tedd Daffan's Texans
+    - (Музыка) 'Born To Lose' - Tedd Daffan's Texans
+    - （音楽）「Born To Lose」テッド・ドラファンズ・テクサンズ
+    - （音乐）“天生输家” —— Tedd Daffan's Texans
+    - (노래) 「Born To Lose」— 테드 다판의 텍사스 사람
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_18
+    TermType: 0
+    Description:
+    Languages:
+    - "Don't hate the player; hate the game.\n— Ice T"
+    - "Не ненавидь игрока, ненавидь игру.\n— Айс Т"
+    - "「選手を嫌うな、試合そのものを嫌え」\n アイス・T"
+    - 不要讨厌玩家;讨厌游戏。—— Ice T
+    - "「선수를 미워하지 말고; 게임을 싫어하라」 \n— 아이스 T"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_19
+    TermType: 0
+    Description:
+    Languages:
+    - "When to the sessions of sweet silent thought\nI summon up remembrance of things past,\nI sigh the lack of many a thing I sought,\nAnd with old woes new wail my dear time's waste:\n— William Shakespeare, Sonnet XXX"
+    - "Когда на суд безмолвных, тайных дум\nЯ вызываю голоса былого, -\nУтраты все приходят мне на ум,\nИ старой болью я болею снова.\n— Уильям Шекспир, сонет XXX"
+    - "「甘き静寂が思考されるその瞬間に、\n 私は、過去の出来事を自らの中に呼び起こす。\n 求めたものの多くを手にしていないことを嘆き、\n 古き悲哀と共に、愛しき時間の浪費に新たな鳴き声をあげる」\n ウィリアム・シェイクスピア（ソネット集）"
+    - "当我把对已往种种事情的回忆\n 召唤到我这温柔的沉思的公堂,\n 为没有求得的许多事物叹息,\n 再度因时间摧毁了好宝贝而哀伤： \n —— 威廉·莎士比亚，十四行诗XXX"
+    - "「언제나 달콤한 침묵의 기간에, \n나는 지난 것들에 대한 기억을 불리 일으킨다, \n그리고 내가 추구하던 많은 것의 부족함을 후회한다, \n그리고 오래된 고민에 대한 새로운 희생은 사랑하는 나의 시간 낭비이다:」 \n— 윌리엄 셰익스피어, 소넷 XXX"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_20
+    TermType: 0
+    Description:
+    Languages:
+    - "Patience is the foundation of eternal peace.\nMake anger your enemy.\nHarm comes to those who know only victory and do not know defeat. \nFind fault with yourself and not with others. It is in falling short\nof your own goals that you will surpass those who exceed theirs. \n— Tokugawa Ieyasu"
+    - "Терпение - основа вечного мира.\nСделай гнев своим врагом.\nГоре ждёт того, кто знает только победу и не знает поражений.\nВини себя, а не других. Лишь через провалы своих целей\nты одолеешь тех, кто превосходит их.\n— Токугава Иэясу"
+    - "「堪忍は無事長久の基、\n 怒りは敵と思え。\n 勝つことばかり知りて、負くること知らざれば、害その身に至る。\n 及ばざるは、過ぎたるより勝れり」 \n徳川家康"
+    - "忍耐是永恒和平的基础。\n 使你的敌人愤怒。\n 仇恨只会去找那些只知道胜利，不知道失败的人。\n 在自己而不是他人身上找错。缩小你的目标，你会超越他人。\n  —— 德川家康"
+    - "「인내는 영원한 평화의 기초이다. 너의 적을 분노케하라. \n승리는 오직 승리만을 알고 패배를 모르는 사람들에게 해가 된다. \n다른 자신의 실수를 남에게서 찾지 말고 스스로에게서 찾아라. \n자신의 목표를 뛰어넘지 못하면, 자신의 목표를 넘어서는 사람들을 능가하라」\n— 도쿠가와 이에야스"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_21
+    TermType: 0
+    Description:
+    Languages:
+    - "She smiled in defeat,\nWith unconquerable eyes.\n— Atticus"
+    - "Она улыбнулась в поражении,\nНепобедимыми глазами.\n — Atticus"
+    - "「彼女は揺るぎない瞳で、\n 敗北の中で微笑んだ」\n アッティクス"
+    - 她笑对失败，用不可抗拒的眼光。——阿迪克斯
+    - "「그녀는 패배에 미소를 지었다, 정복할 수 없는 눈으로.」 \n— 에티커스"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_22
+    TermType: 0
+    Description:
+    Languages:
+    - "Your failure here is a metaphor. To learn for what, please resume climbing.\n— Rob Dubbin"
+    - "Ваш провал это метафора. Чтобы понять её суть, пожалуйста продолжите подъём.\n— Роб Даббин"
+    - "「ここで言う失敗は隠喩である。何の隠喩であるかを知るには、登り続けるべし」\n ロブ・ダビン"
+    - "你这里的失败是一个比喻。要学习什么，请继续攀登。\n-—— Rob Dubbin"
+    - "「당신의 실패는 은유이다. 무엇을 배우려면 다시 등반을 시작해야 한다.」 \n— 랍 더빈"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_23
+    TermType: 0
+    Description:
+    Languages:
+    - "Laugh, and the world laughs with you;\nWeep, and you weep alone;\nFor the sad old earth must borrow its mirth,\nBut has trouble enough of its own.\n— Ella Weaver Wilcox"
+    - "Смейся, друг, и весь мир засмеется с тобой\nНе пытайся лить слезы – никто не услышит\nНу а тем кто в печали, мир отдаст свой покой\nПусть и сам от невзгод и проблем еле дышит\n— Элла Уилер Уилкокс"
+    - "「笑えば、世界も笑う。\n 泣けば、ひとりぼっち。\n 悲しき地は歓喜を他から借りる。\n だがそれ自身には問題が付きまとう」\n エラ・ウィーバー・ウィルコックス"
+    - "笑，世界和你一起欢笑;\n 哭泣，你独自哭泣;\n 因为悲伤的旧地必须借它的欢乐，\n 但它自己的麻烦已经够了。\n —— Ella Weaver Wilcox"
+    - "「웃어라, 그러면 세상은 너와 함께 웃을 것이며; 울어라, 그러면 너는 혼자 울 것이다; \n슬프고 늙은 지구는 그 기쁨을 빌려야 하지만 그 스스로 문제가 있다.」 \n— 엘라 워버 윌콕스"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_24
+    TermType: 0
+    Description:
+    Languages:
+    - "Better by far you should forget and smile\nThan that you should remember and be sad.\n— Christina Rosetti"
+    - "То лучше позабудь и улыбнись,\nЧем вспоминать, исполнившись печали.\n — Кристина Росетти"
+    - "「ただ忘れて、微笑むこと。\n 覚えて悲しむより、そっちの方がいい」\n クリスティーナ・ロゼッティ"
+    - "我宁愿你能将我微笑的忘记，也远远胜似你把我悲伤的记起。\n—— Christina Rosetti"
+    - "「기억하고 슬퍼하는 것보다 잊어버리고 미소 짓는 게 더 좋다. \n— 크리스티나 로세티"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_25
+    TermType: 0
+    Description:
+    Languages:
+    - "Something filled up my heart with nothing, someone told me not to cry. Now that I'm older, my heart is colder, I can see that it's a lie.\n— The Arcade Fire"
+    - "Что-то наполнило моё сердце пустотой, кто-то говорил мне не плакать. Но сейчас, когда я старше, моё сердце холоднее, и я вижу, что это ложь.\n— The Arcade Fire"
+    - "「私の心は、空虚を感じた。ある人は泣くなと言った。大人になった今、冷静に考えて、その全てが嘘だとわかる」\n The Arcade Fire"
+    - "有什么东西填满了我的心，有人告诉我不要哭。现在我长大了，我的心越来越冷，我可以看到这是一个谎言。\n—— The Arcade Fire"
+    - "「뭔가가 내 마음을 공허로 가득 채웠고, 누군가 나에게 슬퍼하지 말라고 했다. \n지금, 나는 더 늙었고, 더 추워졌으며, 이것이 거짓말이었다는 것을 알 수 있다.」 \n— 아케이드 파이어"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_26
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Going Down the Road Feeling Bad' — Gussie Ward Stone
+    - (Музыка) 'Going Down the Road Feeling Bad' — Gussie Ward Stone
+    - （音楽）『'Going Down the Road Feeling Bad』ガシー・ワード・ストーン
+    - （音乐）“走在路上心情不好” —— Gussie Ward Stone
+    - (노래) 「Going Down the Road Feeling Bad」— 구시 와드 스톤
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_27
+    TermType: 0
+    Description:
+    Languages:
+    - "I stand amid the roar of a surf-tormented shore,\nAnd I hold within my hand grains of the golden sand.\nHow few! yet how they creep through my fingers to the deep,\nWhile I weep- while I weep!\nO God! can I not grasp them with a tighter clasp?\nO God! can I not save one from the pitiless wave?\nIs all that we see or seem but a dream within a dream?\n—Edgar Allen Poe"
+    - "Стою у бурных вод, кругом гроза растет,\nХранит моя рука горсть зернышек песка\nКак мало! Как скользят меж пальцев все назад...\nИ я в слезах, - в слезах:\nО боже! как в руках сжать золотистый прах?\nПусть будет хоть одно зерно сохранено!\nВсе ль то, что зримо мне, иль мнится,- сон во сне.\n— Эдгар Алан По"
+    - "「打ち寄せる波に虐げられる海岸の中に、佇む。\n 握った拳の中にあるのは、黄金の砂の粒子。\n 何と少ないことか！それに、指の間を抜ける感触。\n 目からは涙が溢れ、こぼれ落ちる！\n 神よ！強く握り、これを手にとどめることはできないのか？\n 神よ！無慈悲な波から、これを守ることはできないのか？\n この世は…眼に映る全ては、夢の中の夢なのか？」\n エドガー・アラン・ポー"
+    - "我站在一个冲浪的海岸的咆哮中，\n 手里捧着金色的沙粒。\n 少数几个！但是他们是如何通过我的手指向深处蔓延，\n 当我哭泣，而我哭了！\n 哦，上帝！我不是用一个更紧密的扣子来把握它们吗？\n 哦，上帝啊！我不能把一个人从无情的波浪中拯救出来吗？\n 我们所看到或看到的只是梦境中的一个梦想吗？\n —— 爱德华·艾伦·坡"
+    - "「나는 서핑으로 고통받고 있는 해안의 포효 속에 서있다. \n그리고 나는 황금빛 모래알을 내 손에 든다. \n고작 몇 개! 그러나 그들이 내 손가락 깊은 곳에서 살금살금 움직인다. \n내가 울고 있는 동안에- 내가 울고 있는 동안에! \n오 신이시여! 나는 더 단단히 움켜쥐어 그들을 붙잡지 않을 수 있나요? 오 신이시여! \n무지 비한 파도에서 그들을 구하지 않을 수 있나요? \n우리가 보게 되는 모든 것이 꿈 안에 있는 꿈입니까?」 \n— 에드갈 알렌 포"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_28
+    TermType: 0
+    Description:
+    Languages:
+    - "Can I see another's woe,\nAnd not be in sorrow too?\nCan I see another's grief,\nAnd not seek for kind relief?\n— William Blake"
+    - "Разве ближних вам не жаль,\nЕсли их гнетет печаль?\nЗная ближнего мученья,\nКто не ищет облегченья?\n— Уильям Блейк"
+    - "「誰かの悲哀を目にしながら、\n 悲しみにくれないことなどあるのか？\n 誰かの悲痛を目にしながら、\n 柔らかなる癒しを求めないことなどあるのか？」\n ウィリアム・ブレイク"
+    - "我能否看到别人的祸患，\n 而不是也悲伤？\n 我能否看到别人的悲伤，\n 而不是寻求救济？ \n —— 威廉·布莱克"
+    - "「다른 사람의 슬픔을 볼 수 있을까?\n그리고 슬픔에 빠지지 않을 수 있을까? \n다른 사람의 슬픔을 볼 수 있을까? \n그리고 친절한 애도를 찾지 않을 수 있을까?」 \n— 윌리엄 브레이크"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_29
+    TermType: 0
+    Description:
+    Languages:
+    - "In the end, we only regret the chances we didn’t take.\n— Lewis Carroll"
+    - "В конце мы можем только сожалеть. Шансов у нас не остаётся.\n— Льюис Кэрролл"
+    - "「結局のところ、人は、しなかったことを悔やむ」\n ルイス・キャロル"
+    - "最后，我们只是后悔我们没有采取的机会。\n—— 刘易斯卡罗尔"
+    - "「결국 우리는 하지 않을 것들에 대해 후회한다.」 \n— 루이스 캐롤"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_30
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Easy Street' - The Pied Pipers with Axel Stordahl and his Orchestra
+    - (Музыка) 'Easy Street' - The Pied Pipers with Axel Stordahl and his Orchestra
+    - （音楽） 『Easy Street』パイドパイパーズ with アクセル・ストーダールとオーケストラ
+    - （音乐）“安乐街” ——The Pied Pipers with Axel Stordahl and his Orchestra
+    - (노래) 「Easy Street」— 플레드 파이퍼와 엑셀 스톨다힐 그리고 그의 오케스트라
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_31
+    TermType: 0
+    Description:
+    Languages:
+    - "Our doubts are traitors and make us lose the good we oft might win, by fearing to attempt\n— William Shakespeare, Measure for Measure"
+    - "Сомнение - предатель: Из-за него мы многое теряем, боясь рискнуть.\n— Уильям Шекспир, Мера за меру"
+    - "「疑念は裏切り者であり、これのせいで挑戦することを恐れ、勝ち取ることのできたはずの成果を失ってしまう」\n ウィリアム・シェイクスピア（尺には尺を）"
+    - "我们的怀疑是叛徒，使我们害怕尝试威胁从而失去赢得可能\n—— William Shakespeare, Measure for Measure"
+    - "「의심은 배반자이다, 의심하여 시도하는 것이 두려워져 얻을 수 있는 좋은 것을 얻지 못하게 만든다.」 \n— 윌리엄 셰익스피어, 믿음 명언"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_32
+    TermType: 0
+    Description:
+    Languages:
+    - "There are no regrets in life,\nJust lessons.\n— Jennifer Aniston"
+    - "В жизни нет сожалений.\nТолько уроки.\n— Дженнифер Энистон"
+    - "「人生に後悔などない。教訓あるのみ」\n ジェニファー・アニストン"
+    - "生活中没有遗憾，只是教训。\n—— 珍妮弗·安妮斯顿"
+    - "「인생에 후회는 없다, 단지 교훈일 뿐이다」\n— 제니퍼 애니스턴"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_33
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Six Cold Feet in the Ground' — Leroy Carr
+    - (Музыка) 'Six Cold Feet in the Ground' — Leroy Carr
+    - （音楽）『Six Cold Feet in the Ground』リロイ・カー
+    - （音乐）“地下六英尺” —— Leroy Carr
+    - (노래) 「Six Cold Feet in the Ground」— 레로이 칼
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_34
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) When I Grow Too Old To Dream — Dick Haymes
+    - (Музыка), When I Grow Too Old To Dream — Dick Haymes
+    - （音楽）『 When I Grow Too Old To Dream』ディック・ヘイムス
+    - （音乐）待我老得不再作梦 —— Dick Haymes
+    - (노래) 「When I Grow Too Old To Dream」— 딕 헤이메스
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_35
+    TermType: 0
+    Description:
+    Languages:
+    - "Pain has an element of blank;\nIt cannot recollect when it began, or if there were\nA day when it was not. It has no future but itself,\nIts infinite realms contain its past, enlightened to perceive\nNew periods of pain. \n— Emily Dickinson"
+    - "Забывчивость у боли есть –\nНе может вспоминать когда пришла, была ли здесь\nВсё  время, как узнать – нет Будущего – но сама\nВ себе содержит Суть, ей прошлое – есть свет иль тьма,\nВновь может Боль вернуть.\n— Эмили Дикинсон"
+    - "「痛みには空白が伴う。\n それが始まった時を想起することはできず、それが存在しなかった日々を思い返すこともできない。それがあるのみで、未来は介在しない。\n その無限の領域に過去があり、新たな痛みの日々の知覚を教化するのみ」\n エミリー・ディキンソン"
+    - "痛苦有一种空白;\n 它无法回忆起它何时开始，或者是否有一天它没有。\n 它没有未来，只有它自己，\n 它的无限王国包含着它的过去，\n 被启发去感知新的痛苦时期。\n ——艾米莉·狄金森"
+    - "「고통에는 공백이 있다; 시작된 때를 기억할 수 없거나, \n그렇지 않은 날이 있었다면 기억할 수 없다. \n미래는 없지만, 그 무한한 영역은 과거를 담고 있으며, \n고통의 새로운 시기를 깨닫도록 계몽되어 있다」\n— 에밀리 디킨슨"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_36
+    TermType: 0
+    Description:
+    Languages:
+    - "Oft expectation fails, and most oft where most it promises; and oft it hits where hope is coldest; and despair most sits.\n— William Shakespeare, All's Well that Ends Well"
+    - "Там, где гордыня чудо отрицала, не раз надежда исчезала там, где все успех сулило, - и сбывалась, где верным лишь отчаянье казалось.\n— Уильям Шекспир, Все хорошо, что хорошо кончается"
+    - "「度々、期待は裏切られる。特に、約束さえされたかのような時に。度々、希望の凍える時に、それはやってくる。そして絶望はいつもそこに鎮座する」\n ウィリアム・シェイクスピア（終わりよければ全てよし）"
+    - "噢，期望失败了，最重要的是它承诺的最多的地方，而且它最终会在希望最冷的地方出现，而绝望的地方大多数都会坐下。\n—— William Shakespeare, All's Well that Ends Well"
+    - "「기대하지 말아라, 기대는 모든 고통의 원천이다; \n희망은 가장 차가운 곳에 있을 것이며; \n절망이 머물러 있을 것이다」\n— 윌리엄 셰익스피어, 끝이 좋으면 모두 다 좋다"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_37
+    TermType: 0
+    Description:
+    Languages:
+    - "Even as the stone of the fruit must break, that its \nheart may stand in the sun, so must you know pain. \nAnd could you keep your heart in wonder at the \ndaily miracles of your life, your pain would not seem \nless wondrous than your joy.\n— Khalil Gibran"
+    - "Ваша боль от того, что ломается оболочка, скрывающая вас от пониманья вещей.\nЧтобы сердце плода могло предстать перед солнцем,\nего твердая косточка должна расколоться, вот так же и вы должны узнать боль.\nИ если бы сердце ваше не переставало изумляться чудесам, которые жизнь приносит вам каждый день,\nваша боль казалась бы вам не менее длинной, чем радость\n— Халиль Джебран"
+    - "「果物の核果でさえ割れ、その中身は\n 太陽のもとで耐え忍び、身を以て痛みを知る。\n 日々の奇跡に心震わすことができれば\n その痛みは、喜びより月並みだとは言い難くなる」\n ハリール・ジブラーン"
+    - "即使果实的石头必须破碎\n ，它的心也可能站在太阳底下，所以你必须知道痛苦。\n 你是否能让你的心对你生命的每日奇迹感到惊奇，\n 你的痛苦也不会像你的快乐那么奇妙。\n ——哈利勒纪伯伦"
+    - "「과일의 돌이 깨져야 할때도, \n그 마음이 햇볕 아래에 서있을 수 있으므로 고통을 알아야 한다. \n그리고 일상의 기적을 생각하면 가슴이 떨릴 것이다, \n고통은 즐거움보다 덜 경이로운 것처럼 보일 것이다.」 \n— 칼릴 지브란"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_38
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Poor Boy A Long Ways from Home' — Barbecue Bob
+    - (Музыка) 'Poor Boy A Long Ways from Home' — Barbecue Bob
+    - （音楽）『Poor Boy A Long Ways from Home』バーベキュー・ボブ
+    - （音乐）“可怜的男孩离家很远” —— Barbecue Bob
+    - (노래) 「Poor Boy A Long Ways from Home」— 바비큐 밥
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_39
+    TermType: 0
+    Description:
+    Languages:
+    - "This is the Hour of Lead\nRemembered, if outlived,\nAs Freezing persons recollect the Snow\nFirst—Chill—then Stupor—then the letting go.\n— Emily Dickinson"
+    - "Сумевший выжить вспомнит этот ад,\nКак погребённый в хладе снежной ямы.\nСначала стынет всё. Оцепененья яд.\nИ давящий свинец , и смерти лик над вами.\n— Эмили Дикинсон"
+    - "「これこそが忘れることのない、\n 長きに渡り続いてきた消沈の時。\n 凍える者が雪を記憶するように\n まず寒気、次に昏睡、そして解き放たれる」\n エミリー・ディキンソン"
+    - "这一时刻像是被灌了铅\n 如果扛过来了，只会记得\n 犹如受冻的人回忆起冰雪\n 先是寒冷，然后麻木，然后任他去。\n ——艾米莉·迪金森"
+    - "「이것은 시간을 지휘하고 있다, \n기억해라, 냉동 인간이 먼저 눈을 다시 수집하고- 떨고- 인사불성이 되고- 다시 떠나가게 할 것이 오래 지속될 것이다.」 \n— 에밀리 딕슨"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_40
+    TermType: 0
+    Description:
+    Languages:
+    - "I feel your pain: the pain in knowing this has \nHappened to you. The pain in knowing what more \ntears we have gained. But through all this I feel your pain.\n— Octavia Hawkins-Richardson"
+    - "Я разделяю боль: то знание, что это всё\nС тобой случилось. Ту боль, по которой столько\nслёз мы пролили. Но не смотря на всё, я разделяю боль\n— Октавия Хокинс-Ричардсон"
+    - "「あなたの痛みがわかる。これが過去に起きたことを知る\n という痛み。味わってきた数々の涙を知るという痛み。\n これ以外の全てにおいて、私はあなたの痛みがわかる」\n オクタヴィア・ホーキンス・リチャードソン"
+    - "我感到你的痛苦：知道这一切的痛苦已经发生在你身上。知道我们已经获得更多的痛苦，但通过这一切，我感到你的痛苦。 \n—— Octavia Hawkins-Richardson"
+    - "「당신의 고통을 느낄 수 있다; 나도 알수 있는 고통이 너에게 일어났다. \n우리가 더 많은 눈물을 흘린 것을 아는 고통. 그러나 모든 것을 통해 나는 너의 고통을 느낀다.」 \n— 옥타비아 호킨스-리처드슨"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_41
+    TermType: 0
+    Description:
+    Languages:
+    - "I'm crushing your dreams and dashing your hopes\nYou're climbing a mountain with a hammer and no ropes."
+    - "Я сокрушаю мечты и разбиваю надежды\nТы лезешь на гору с молотком, но без одежды"
+    - "私は、あなたの夢を破壊し、希望を粉砕する。\n あなたは、ロープを使わず、ハンマーだけで山をゆく。"
+    - "我正在粉碎你的梦想，摧毁你的希望。\n 你正用锤子和绳子爬山。"
+    - 너의 꿈을 짓밟고 희망을 버리고 있다. 너는 망치와 밧줄이 없이 산을 등반하고 있다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_42
+    TermType: 0
+    Description:
+    Languages:
+    - "The mountain seems no more a soulless thing,\nBut rather as a shape of ancient fear,\nIn darkness and the winds of Chaos born\nAmid the lordless heavens’ thundering—\nA Presence crouched, enormous and austere,\nBefore whose feet the mighty waters mourn.\n— George Sterling"
+    - "Гора на вид не аки бездушная громада,\nНо форма древних страхов\nРождённый в мраке и ветрах Хаоса\nСредь безбожих громыхающих небес -\nПригнулся Облик, строг и необъятен\nМеж ног его скорбят могучи воды\n— Джордж Стерлинг"
+    - "「山はもう、魂なき物質には見えない。\n もはや、古よりの恐怖の体現のようだ。\n 統べる者を持たない、雷鳴轟く天から生まれし\n 暗黒と混沌の風の中にそびえ立つ。\n 蹲るその姿は、巨大で、禁欲的。\n 足元に流るるは、嘆きの水」\n ジョージ・スターリング"
+    - "山似乎不再是一个没有灵魂的东西，而是一种古老的恐惧，在黑暗和混沌的风中，生出无边无际的天空，在雷鸣般的天空中蜷缩着，巨大而严峻，在强大的水面哀悼之前。\n—— George Sterling"
+    - "「산은 더 이상 두렵지 않다. \n오히려 과거의 두려운 모양으로 보인다. \n어둠과 혼돈의 바람 속에서 태어난 하늘이 우뚝 서있다. \n거대한 물결이 슬퍼하기 전에 엄청나게 금욕적으로 웅크리고 있다.」 \n— 조지 스터링"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_43
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'Going Down the Road Feeling Bad' — Ruth Huber and Lois Judd
+    - (Музыка) 'Going Down the Road Feeling Bad' — Ruth Huber and Lois Judd
+    - （音楽）『Going Down the Road Feeling Bad』ルース・ハバー＆ロイス・ジャッド
+    - （音乐）“走在路上感觉不好” —— Ruth Huber and Lois Judd
+    - (음악) 「풀이 죽어서 내려가고 있어요」— 러스 허버 & 로이스 주드
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_44
+    TermType: 0
+    Description:
+    Languages:
+    - "Whenever I climb, I'm followed by a dog called 'ego'.\n— Friedrich Nietzsche"
+    - "Как бы высоко я ни поднялся, за мной всегда следует собака по кличке Эго.\n— Фридрих Ницше"
+    - "「山を登るたびに、“エゴ”という名の犬が私の後ろをついてくる」\n フリードリヒ・ニーチェ"
+    - "每当我爬的时候，后面会跟着一只叫做“自我”的狗。\n—— Friedrich Nietzsche"
+    - "「올라갈때마다, '자아'라는 개가 뒤따랐다」 \n— 프리드리히 니체"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_45
+    TermType: 0
+    Description:
+    Languages:
+    - I'm, uh. I'm going to let you be for a little bit.
+    - Я, эээ, оставлю тебя ненадолго.
+    - ええと、あなたのありのままを、そのままどうぞ。
+    - 我，呃，我会让你多一点点。
+    - 나는, 어. 너를 좀 쉬게 하고 싶어.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONDOLENCE_46
+    TermType: 0
+    Description:
+    Languages:
+    - (Music) 'I'm Going Down The Road Feeling Bad' — Forde Ward
+    - (Музыка) 'I'm Going Down The Road Feeling Bad' — Forde Ward
+    - （音楽）『I'm Going Down The Road Feeling Bad』フォード・ワード
+    - （音乐）“走在路上感觉不好” —— Forde Ward
+    - (노래) 「I'm Going Down The Road Feeling Bad」 — 포드 와드
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: CONTINUE_GAME
+    TermType: 0
+    Description: Continue from save
+    Languages:
+    - Continue
+    - Продолжить
+    - 続きから
+    - 继续游戏
+    - 계속하기
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Continue
+    TermType: 0
+    Description: Continue game from saved position
+    Languages:
+    - "Continue\t"
+    - Продолжить
+    - 続きから
+    - 继续游戏
+    - 계속하기
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Credits
+    TermType: 0
+    Description:
+    Languages:
+    - Credits
+    - Об авторах
+    - クレジット
+    - 感谢名单
+    - 크레딧
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_01
+    TermType: 0
+    Description:
+    Languages:
+    - "There’s no feeling more intense than starting over.\nIf you’ve deleted your homework the day before it was due, as I have,\nOr if you left your wallet at home and you have to go back, after spending an hour in the commute,\nIf you won some money at the casino and then put all your winnings on red, and it came up black,\nIf you got your best shirt dry-cleaned before a wedding and then immediately dropped food on it,\nIf you won an argument with a friend and then later discovered that they just returned to their original view,\nStarting over is harder than starting up.\nIf you’re not ready for that, like if you’ve already had a bad day\nthen what you’re about to go through might be too much.\nFeel free to go away and come back. I’ll be here."
+    - "Нет чувства интенсивней чем начинать заново.\nЕсли вы удалили домашнее задание за день до сдачи, как это сделал я,\nИли если вы оставили кошелёк дома и должны вернуться после часа в транспорте,\nЕсли вы выиграли немного денег в казино, поставили всё на красное, но выпало чёрное,\nЕсли вы забрали из химчистки свою лучшю рубашку перед свадьбой и сразу же уронили на неё еду,\nЕсли вы выиграли у друга в споре, но позже узнали, что он просто вернулся к исходному мнению,\nНачинать заново сложнее, чем начинать сначала.\nЕсли вы к этому не готовы, например если у вас и так плохой день,\nтогда то, что вы собираетесь пройти, может оказаться для вас слишком.\nЕсли хотите, можете уйти и вернуться позже. Я буду здесь."
+    - "やり直しほど、厳しいものはない。\n 期限日の前日に宿題を削除してしまったり。\n 1時間移動した後に、家におき忘れた財布のために取りに帰ったり。\n カジノで地道に獲得した賞金を全て赤にかけたら、あいにくボールは黒へ。\n 結婚式前、お気に入りのシャツをクリーニングに出したのに、食べ物をこぼしたり。\n 友達を論破したと思ったら、次の瞬間には、またそれぞれの考えに戻ったり。\n やり直しは、やり始めるよりも…辛い。\n 気持ちが乗らない時、特に嫌なことがあった一日に、そんなことがあると、目の前の現実から目を背けたくすらなる。\n いつでもどうぞ。私はここで待ってますから。"
+    - "重新开始最让人感觉紧张了。\n 如果你像我一样，在截止日期的前一天把作业删除了，\n 或者如果当你已经在上班路上一小时了，发现你把钱包放在家里而且必须回去拿的时候，\n 如果你在赌场赢了些钱，然后把这些钱都押红，但结果都是黑数，\n 如果你在婚礼前干洗了你最好的衬衫，结果立刻就把食物掉在上面，\n 如果你在和朋友的辩论中获胜，然后发现你们只是回到最初的观点，\n 重新开始比开始更难。\n 如果你还没有准备好，比如你已经度过了糟糕的一天\n 那么你将要经历的事情可能太多了。\n 你可自由来去，我会一直在这。"
+    - "처음부터 다시 시작하는 것보다 더 강렬한 느낌은 없습니다. \n내가 그랬듯이, 숙제 마감일 하루 전에 숙제를 삭제했다면, \n출근한지 한 시간 후에 만약 지갑을 집에둬서 다시 돌아가야 한다면,\n 카지노에서 돈을 딴 후 딴 돈 모두를 빨강에 걸었는데 검은색이 이겼을 때, \n웨딩식 전에 좋아하는 셔츠를 드라이클리닝 했는데 그 위에 음식을 떨어뜨렸을 때, \n친구와 논쟁을 하고 있는데 다시 처음으로 돌아왔을 때, \n처음부터 다시 시작하는 것은 초기에 하는 시작보다 더 어렵습니다. \n아직 준비가 안됐다면, 이미 나쁜 날을 보내고 있다면, 당신이 겪고 있는 일이 너무 많을 수도 있습니다. \n떠났다가 돌아오셔도 좋습니다. \n저는 항상 여기 있을겁니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_02
+    TermType: 0
+    Description:
+    Languages:
+    - "Alright, thanks for coming with me on this trip. I'll understand if you have to take a break at any point... \nJust find a safe place to stop, and quit the game.\nDon't worry, I'll save your progress, always. Even your mistakes."
+    - "Ладно, спасибо что отправились со мной в этот поход. Я пойму, если рано или поздно вам прийдётся прерваться.\nПросто станьте в безопасном месте и выйдите из игры.\nНе волнуйтесь, я сохраню ваш прогресс, обязательно. Даже ваши ошибки."
+    - "そうですか、私に付き合ってくれてありがとうございます。いつでも、小休止が必要な時には、遠慮せずにどうぞ。\n 安全な場所を探して、ただゲームを閉じるだけでOK。\n どんな時でも、自動でセーブされますから、ご心配なく。間違えて消してしまっても大丈夫。"
+    - "好的，谢谢你和我一起开始这次旅程。无论你何时想休息我都会表示理解……\n 你只要找一个安全的地方停下来，然后退出游戏。\n 不用担心，我会一直保留你的进度，甚至你的错误。"
+    - "좋아, 이 여행에서 나와 같이 해줘서 고맙습니다. \n언제든지 휴식을 취해야 한다면 말해주세요, 이해할 수 있습니다… \n멈추기에 안전한 곳을 찾아 게임을 그만두세요. \n걱정 마세요, 나는 항상 당신의 업적을 저장해 놓을 겁니다, 실수 조차도."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_03
+    TermType: 0
+    Description:
+    Languages:
+    - "This game is a homage to a free game that came out in 2002, titled 'Sexy Hiking'. \nThe author of the game was Jazzuo, a mysterious Czech designer who was known at the time as the father of B-games.\nB-Games are rough assemblages of found objects. \nDesigners slap them together very quickly and freely, and they're often too rough and unfriendly to gain much of a following. \nThey're built more for the joy of building them than as polished products."
+    - "Эта игра - дань уважения бесплатной игре, которая вышла в 2002 году, под названием 'Sexy Hiking'.\nАвтором игры был Jazzuo, загадочный чешский дизайнер, известный в то время как отец Б-игр.\nБ-игры представляют из себя грубые сборища найденых предметов.\nДизайнеры собирают их очень быстро и свободно, но они часто слишком грубы и неподступны чтоб обрести какую-то популярность.\nИх делают больше ради веселья во время процесса создания чем как законченные продукты."
+    - "このゲームは、2002年にリリースされた『Sexy Hiking』というゲームに敬意を表し、制作されました。\n その作品の作者というのは、謎めいたチェコ人Jazzuo。当時、B級ゲームの生みの親として名を馳せていました。\n そのB級ゲームというのは、見つけものの寄せ集めで、設計者は、一瞬で、自由にそれらをつくりあげるものです。\n大抵かなり雑で、遊ぶ人のことはあまり考えられていなくて、ファンを獲得するほどではありません。\n 作品としての公開より、つくる工程が楽しまれたということですね。"
+    - "这个游戏意欲向2002年推出的免费游戏《迷人远足》致敬。\n 它的的创作者是当时被称为B类游戏之父的捷克神秘设计师Jazzuo.\n B类游戏是偶然发现物品的粗糙集合。\n 设计师们非常快速和随意地将它们拼凑在一起，这类游戏通常很粗糙，很不友好，以至于没有很多追随者。\n 创造他们更多是为了享受创造的过程，而不是为了精雕细琢。"
+    - "이 게임은 2002년에 무료로 출시된 'Sexy Hiking'을 찬양하는 게임입니다. \n이 게임의 저자는 당시 B-게임의 아버지로 알려진 체코 다지이너 자주오 (Jazzuo)이었습니다. \nB-게임은 발견된 개체의 거친 집합체라고 할 수 있습니다. \n디자이너는 매우 신속하고 자유롭게 그들을 만듦으로써, 너무 거칠고 비 우호적이어서 팬들을 많이 획득하였습니다. \n그들은 세련된 제품들보다 더 많은 즐거움을 주기 위해 만들어졌습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_04
+    TermType: 0
+    Description: 'Note: the hammer described here is a sledgehammer.'
+    Languages:
+    - "In a certain way Sexy Hiking is the perfect embodiment of a B-game. \nIt's built almost entirely out of found and recycled parts, and it's one of the most unusual and unfriendly games of its time.\nIn it, your task is simply to drag yourself up a mountain with a hammer. \nThe act of climbing, in the digital world or in real life, has certain essential properties that give the game it's flavor. \nNo amount of forward progress is guaranteed; some cliffs are too sheer or too slippery. \nAnd the player is constantly, unremittingly in danger of falling and losing everything."
+    - "В каком-то смысле, Sexy Hiking - идеальное воплощение Б-игры.\nОна построена почти целиком из найденных и переработанных частей, и это одна из самых необычных и неподступных игр своего времени.\nВ ней, задача игрока—просто втащить себя на гору молотком.\nСам процесс восхождения, в виртуальном или реальном мире, имеет определённые качества, которые делают эту игру особенной.\nНикакой прогресс не гарантирован, некоторые обрывы слишком круты или скользки.\nА игрок постоянно, неумолимо рискует упасть и потерять всё."
+    - "ある意味で、『Sexy Hiking』は、B級ゲームの代表作でしょう。\nほぼ全てが拾い物でつくられていて（使い回しで）、奇妙で、そして、遊びにくい。\n このゲームで行うのは、ハンマーを使ってただ山を登ること。\n 現実世界であれゲームの世界であれ、山登りには独自の特徴があります。\n どれだけ先に進めるかの保証が、全く存在しない。ある崖は峻烈すぎたり、また他の崖はツルツル滑ったり。\n さらにプレイヤーは、常に、転げ落ちて、全てを失う危険にさらされます。"
+    - "在某种程度上，《迷人远足》是一个B类游戏的完美体现。\n 它几乎完全是由被发现的和回收的零件构成的，是那个时代最不寻常和不受欢迎的游戏之一。\n 游戏里，你的任务仅仅是用利用大锤拽着自己爬上山顶。\n 在数字世界或现实生活中，攀岩都具有某种本质特性，这赋予了此类游戏独特属性。\n 前进的进程无法得到保证；有些悬崖太陡峭或太滑了。\n 因此玩家一直处在坠落悬崖和失去一切的危险之中。"
+    - "어떤면에서 Sexy Hiking은 B-게임의 전형입니다. \n이것은 전적으로 이미 출시되거나 재활용된 부품으로 만들어 졌으며, 완벽한 구현 물이며 가장 독특하고 비 우호적인 게임의 하나이기도 합니다. \n그것에서 당신의 임무는 단순히 망치를 이용해서 산을 등반하는 것입니다. \n등산을 하는 것은 디지털 세계 또는 실제 생활에서 게임에 운치를 주는 특정 속성을 가족 있습니다. \n순조로운 진행은 보장되지 않습니다. 일부 절벽은 너무 수직이거나 미끄러울 수 있습니다. \n그리고 선수는 끊임없이 넘어지고 모든 것을 잃을 수도 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_05
+    TermType: 0
+    Description:
+    Languages:
+    - "Anyway when you start Sexy Hiking, you're standing next to a tree, which blocks the way to the entire rest of the game. \nIt might take you an hour to get over that tree. A lot of people never got past it. You prod and poke at it, exploring the limits of your reach and strength, trying to find a way up. \nThere's a sense of truth in that lack of compromise. \nMost obstacles in videogames are fake—you can be completely confident in your ability to get through them, once you have the correct method or the correct equipment, or just by spending enough time. \nIn that sense, every pixellated obstacle in Sexy Hiking is real."
+    - "Как бы там ни было, когда вы начинаете Sexy Hiking, вы стоите рядом с деревом, которое преграждает путь к остальной части игры.\nУ вас может уйти час чтоб перебраться через это дерево. У многих так и не получилось. Ты толкаешь и тыкаешь его, пытаясь найти пределы своего охвата и силы, ища способ забраться наверх.\nЕсть некая истина в этой бескомпромисности.\nБольшая часть препятствий в видеоиграх поддельны - вы можете быть полностью уверены в своей способности одолеть их, как только найдетё правильный подход или нужную экипировку, или просто потратив достаочное количество времени.\nВ этом смысле, каждое пиксельное препятствие в Sexy Hiking - реально."
+    - "『Sexy Hiking』をやってみればわかることですが、最初に木が現れ、その向こうにゲームのステージが広がっています。\nこの木1本を乗り越えるだけでも、1時間くらいかかるかもしれません。多くの人がこれさえ越えられずに断念しました。ハンマーを叩きつけて、そこを支点にして体を持ち上げて…リーチと腕力の限界に挑みながら、道を進んでいくわけです。\n この妥協を許さないスタイルに、本物の価値を感じます。\n ゲームに登場するほとんどの障害物は偽物にすぎません。正しい方法論を発掘したり、強い装備を手に入れたり、膨大な時間を投じたりすれば、揺るぎない自信をもって、障害を突破していけます。\n そんな点を考慮すると、『Sexy Hiking』のピクセルで表現された障害物は全て、“本物”なのだと言えるでしょう。"
+    - "无论如何，当你开始玩《迷人远足》，你会站在一棵树的旁边，这棵树挡住了去往游戏的其余地方的道路。\n 你可能耗费一个小时才能越过那棵树。很多人都一直没有越过它。\n 你戳它、顶它，探索你能触及到的最远范围和力量的极限，试图找到越过它的方法。\n 有一种真理在于不妥协。\n 电子游戏中的大多数障碍是假的—一旦你掌握了正确的方法和工具，或者只是耗费了足够的时间，你完全可以相信自己有能力穿过这些障碍。\n 从这个意义上说，《迷人远足》中的每个像素化障碍都是真实的。"
+    - "어쨌든, Sexy Hiking 게임을 시작하면, 나무 옆에 서서 게임의 나머지 부분을 방해할 수도 있습니다. \n그 나무를 극복하는데 한 시간이 걸릴 수도 있습니다. 많은 사람들이 추월하지 못할 것입니다. \n당신은 그것을 발견하고 확인하며, 도달할 수 있는 힘의 한계를 알아보고, 길을 찾아보세요. \n타협이 부족한 곳에 진실이 있다. 비디오 게임의 장애물들은 대부분 가짜입니다- 올바른 방법이나, 기구, 또는 충분한 시간을 투자하면, 당신의 능력을 확신할 수 있을 것입니다. \n그러므로, 화소 처리된 Sexy Hiking의 모든 장애물은 진짜입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_06
+    TermType: 0
+    Description:
+    Languages:
+    - "The obstacles in Sexy Hiking are unyielding, and that makes the game uniquely frustrating. \nBut I'm not sure Jazzuo intended to make a frustrating game—the frustration is just essential to the act of climbing and it's authentic to the process of building a game about climbing. \nA funny thing happened to me as I was building this mountain:\nI'd have an idea for an obstacle, and I'd build it, test it, and... it would usually turn out to be unreasonably hard. But I couldn't bring myself to make it easier. \nIt already felt like my inability to get past the new obstacle was my fault as a player, rather than as the builder. \nImaginary mountains build themselves from our efforts to climb them, and it's our repeated attempts to reach the summit that turns those mountains into something real."
+    - "Препятствия в Sexy Hiking кажутся непреодлимыми, именно это делает игру уникально фрустрирующей.\nЯ не думаю, что Jazzuo хотел сделать игру такой—просто фрустрация является неотъемлемой частью процесса лазанья и, потому, является истиной в отношении процесса создания игры про лазание.\nЗабавная штука случилась со мной когда я строил эту гору:\nУ меня была идея для препятствия, я строил его, пробовал и... почти всегда оно оказывалось необоснованно сложным. Но я не мог заставить себя сделать его проще.\nМне уже казалось, что моя неспособность преодолеть новое препятствие—это мой недостаток как игрока, а не как строителя.\nВоображаемые горы строят себя из наших усилий на них взобраться, и это наши неоднократные попытки достичь вершины, что делают эти горы чем-то реальным."
+    - "『Sexy Hiking』の障害物は、頑固で、強敵で、だからこそ、このゲームでイライラする人が急増しているのです。\nしかし、私はJazzuoがわざとイライラの要素を導入したとは思わず、むしろ、\n山登りという行為にとってイライラや葛藤は欠かすことのできない要素であり、これは、登る系ゲームを作る上での美しき価値だと考えています。\n この山を登りながら、こんな面白い考えが頭をよぎりました。\n 障害物のアイデアがあって、それを作って、テストして…これが、不必要なくらいに難しい要素になって、\nそれでも、これをあえて簡単にしようとは思わない。\nその障害物を越えられないのは、\nプレイヤー側の能力が足りないだけだと、思うわけです。\n想像上の山は、私たちによる登山に向けた努力から、自ずと生まれる。\nそして、人間が何度もそれの登頂をしようと試みることで、そういった山は現実のものとなる。"
+    - "《迷人远足》中的障碍是不屈不挠的，这使得游戏变得格外令人沮丧。 \n但是我不确定Jazzuo当初是否打算做这样一个令人沮丧的游戏——挫折对于攀登来说是必不可少的，而且对于构建攀登游戏的过程来说是真实的。 \n当我在创建这座山时，发生了一件有趣的事情： 我打算设置一个障碍，我要建造它，测试它以及……这通常会变得异常艰难。但我无法让它变得容易一点。 \n似乎我无法摆脱新的障碍是我作为一个玩家的过错，而不是作为一个创建者的错误。\n虚拟山脉在我们不断攀登的努力下创建出来，就是我们反复登顶的尝试将这些山脉变得真实。"
+    - "Sexy Hiking의 장애물들은 끈질기기 때문에, 게임을 할 때 독특한 좌절감을 맛볼 수도 있을 것입니다. \n그러나, 자주오가 좌절감을 주기위한 게임을 만들었다고 생각하지 않습니다- 좌절감은 등반 행위에 필수적이며 등반에 관한 게임을 제작하는 과정에 필수적입니다. \n이 산을 짓고 있을 때 재밌는 일이 일어났습니다: 내가 그것을 만들고 실험을 할 때… \n보통 엄청 힘들게 만들어집니다. 그러나 더 쉽게 만들 수가 없습니다. \n새로운 장애물을 통과하는 데에 대한 장애물이, 창조자로서의 잘못이 아니라 플레이어로서의 잘못같이 느껴졌습니다. \n상상의 산들은 등반하려는 우리의 노력 안에서 지어진 것이며, 산의 정삭을 정복하려는 끊임없는 시도가 그 산을 진짜로 만들고 있었습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_07
+    TermType: 0
+    Description:
+    Languages:
+    - "When you're building a videogame world you're building with ideas,\nAnd that can be like working with quick-set cement. You mold your ideas into a certain shape that can be played with, \nand in the process of playing with them they begin to harden and set\nuntil they are immutable, like rock. At that point you can't change the world—not without breaking it into pieces and starting fresh with new ideas."
+    - "Когда вы строите мир в игре, вы строите идеями,\nИ это похоже на работу с быстрозастывающим цементом. Вы задаёте своим идеям определённую форму, с которой можно играть,\nи в процессе игры они застывают и твердеют\nпока не становятся неизменными, как камень. Тогда вы уже не можете изменить мир—по крайней мере не разбив его на кусочки и не начав заново, с новыми идеями."
+    - "テレビゲームの世界観を作る時には、アイデアを総動員する。\nこのプロセスは、まさに、すぐ固まるタイプのセメントを使うようなもの。アイデアをある形に捏り上げて、それで遊ぶ。\nそして、遊んでいるうちに、どんどんとセメントが固まってきて、最後には、岩のようにガチガチの強力な塊となる。\nこの段階では、決してやり直しがきかないのです。それこそ、叩き割って、また新たなアイデアを用意しない限りは。"
+    - "你是用自己的想法在构建电子游戏的世界。\n 这就像速凝水泥。\n 你把想法塑成可以创造出的某种形状，在塑形的过程中，他们开始变硬、成型，直到不能改变，就像岩石一样。\n 那时，你不能改变世界 ——除非把它分解成碎片，用新的想法重新开始塑造。"
+    - "당신의 아이디어로 비디오 게임 세계를 만들게 되면, 신속하게 결합될 수 있습니다. \n당신의 아이디어를 이용하여 실행 가능할 수 있도록 일정한 모양이 되어야 하며, 이것은 바위처럼 불변의 상태가 될 때까지 견고하게 변하기 시작합니다. \n세상을 바꿀 수는 없기 때문에 - 그것을 깨뜨리지 않고 새로운 아이디어로 새롭게 시작할 수 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_08
+    TermType: 0
+    Description:
+    Languages:
+    - "For years now people have been predicting that games would soon be made of prefabricated objects, bought in a store and assembled into a world. \nFor the most part, that hasn’t happened, because the objects in the stores are trash. I don’t mean they look bad or they’re badly made, \nalthough a lot of them are. I mean they’re trash in the way that food becomes trash as soon as you put it in the sink.\nThings are made to be consumed in a certain context, and once the moment is gone they transform into garbage. In the context of technology those moments pass by in seconds. "
+    - "Уже много лет люди предсказывают, что скоро игры будут делать из заготовленных объектов, купленных в магазине и собранных в мир.\nПо большей части, этого не произошло, потому что объекты в магазинах—мусор. Не в том смысле, что они плохо выглядят или плохо сделаны,\nхотя это можно сказать в отношении многих из них. Я имею в виду, что они мусор в том же смысле, что и еда становится мусором как только ты кладёшь тарелки в раковину.\nВещи создаются для потребления в определённом контексте, и как только момент ушёл, эти вещи превращаются в мусор. В контексте технологий, эти моменты пролетают за секунды."
+    - "何年も前から、人々は、ゲームは店舗で売られた既存の品を組み立てて、完成するタイプの代物になるだろうと予想してきました。しかし、そんな時代はやってきていません。店舗に売られているゲーム作品は、ゴミ同然だからです。ただ誤解はしないでください。見た目が悪いわけでもなく、品質が悪いわけでもない。もちろん、そんなゲーム作品もたくさんありますが。私が言いたいのは、ゲームが、流し台に放り込まれた食べ物のように腐る性質です。\n ものには使用されるべき状況や文脈があり、その瞬間を過ぎると、そのものはゴミへと姿を変えます。テクノロジーの世界で言えば、その瞬間は、ものの数秒です。"
+    - "多年以来，人们一直在预测，游戏很快会由预制的物品制成，在商店里购买，并被组装成一个世界。\n 大多数情况下，这并没有发生，因为商店中的物品是废物。我并不是指它们看起来很糟糕，或者它们制做得很糟糕，\n 虽然其中很多是这样的。我的意思是说在某种方式下它们是废物，比如把食物放进水槽，它就变成垃圾。\n 在某种情况下，事物用作消耗，时间一过，它们就变成垃圾。在技术的背景下，这些转变瞬间即逝。"
+    - "수년 동안 사람들은 게임이 조만간 조립식 제품으로 만들어져 상점에서 구입가능하며, 세계 어디서든 조립 가능할 것이라고 예언해왔습니다. \n대부분 상점에서 판매하는 물건은 쓰레기였기 때문에 이런 일은 일어나지 않고 있었습니다. 그것들이 좋아 보이지 않다거나 불량품이라는 것을 의미하는 것은 아닙니다. \n음식을 쓰레기통에 넣었을 경우 쓰레기가 된다는 의미입니다. 물건들은 특정한 상황에서 소비되도록 만들어졌으며, 이 순간이 지나면 쓰레기가 됩니다. \n기술적은 측면에서 이러한 순간들은 초 단위로 지나갑니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_09
+    TermType: 0
+    Description: For Japanese maybe 'kusoge' is better than 'b-games'
+    Languages:
+    - "Over time we've poured more and more refuse into this vast digital landfill we call the internet. It now vastly outnumbers and outweighs the things that are fresh and untainted and unused.\nWhen everything around us is cultural trash, trash becomes the new medium, the lingua franca of the digital age.\nYou can build culture out of trash, but only trash culture: B-games, B-movies, B-music, B-philosophy."
+    - "Со временем, мы насыпали всё больше и больше отбросов в эту громадную виртуальную свалку, что мы зовём Интернет. Теперь количество этих отбросов превосходит и перевешивает всё то, что ещё свежо, незапятнанно и неиспользовано.\nКогда всё вокруг нас является отбросом культуры, то этот мусор становится новой формой, lingua franca эпохи цифровых технологий.\nИз мусора можно построить культуру, но только культуру мусора: Б-игры, Б-фильмы, Б-музыка, Б-философия."
+    - "幾年もの間、私たちは、インターネットと呼ばれる埋立地に、使い古しのものを投棄してきました。\nもはや、古びたものが、新鮮で未使用な何かの数や重量を、大きく上回る事態。\n 身の回りに堆積するのが文化のゴミである時、そのゴミは、新たな媒体、つまり、デジタル時代の共通言語になるのです。\n ゴミから文化は作れる。しかし、それはゴミの文化でしかない。B級ゲーム（またはクソゲー）、B級映画、B級音楽、B級哲学…。"
+    - "随着时间的推移，我们向被称为互联网的巨大数字垃圾填埋场倾倒了越来越多的垃圾。\n现在，无论是在数量还是重量上，这个垃圾填埋场里的东西已经远远超过了那些新鲜的、未被污染的和未被利用的东西。\n 当我们周围的一切都是文化垃圾时，垃圾成为了新的媒介，成为了数字时代的通用语言。\n 你用垃圾创建文化，也只能有垃圾文化：B类游戏、B类电影、B类音乐、B类哲学。"
+    - "시간이 지남에 따라 우리는 인터넷이라고 부르는 이 광대한 디지털 매립지에 더 많은 쓰레기를 버리고 있습니다. \n이제는 새롭고 흠이 없으며, 사용되지 않는 것들이 많이 있습니다. \n우리 주변에 모든 것들이 문화적인 쓰레기로 변모했을 때, 쓰레기는 디지털 세대의 새로운 매체와 공통어가 되어가고 있습니다. \n쓰레기들을 이용해서 하나의 문화를 창조할 수 있습니다: B-개임, B-영화, B-음악, B-철학"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_11
+    TermType: 0
+    Description: Also, wherever a native speaker would prefer the English pop-culture phrase, it's fine to use it.
+    Languages:
+    - "There's 3D models of breakfast\ngen-xers'  fanfic novels\nscanned magazines\ngreen-screen Shia leBoeuf\nbanned snuff scenes on liveleak\nfacebook's got lifelike bots \nwith unbranded adverts,\nand candid shots of kanye\nand taylor swift mashups \ncar crash epic fail gifs\nRussian dash cam vids\ndiscussions of McRibs\ndiscarded, forgotten, unrecycled\nmuddled, rotten, and untitled."
+    - "Есть 3D модели завтраков\nфанфики поколения X\nотсканированные журналы\nШая Лабаф на зелёном экране\nзапрещённые снафф-видео на liveleak\nчеловекоподобные чатботы на facebook\nс рекламой без бренда,\nсерьёзные фото Канье\nмэшапы Тэйлор Свифт\nаварии эпик фэйл гифки\nрусские видео с авторегистраторов\nобсуждения МакРёбер\nотброшенные, забытые, невостребованные\nспутанные, гнилые и безымянные."
+    - "朝食の3Dモデル\n X世代のファン・フィクション小説\n スキャンされた雑誌\n クロマキー合成で舞うシャイヤ・ラブーフ\n ライブリークで禁止された映画出演者の死亡シーン\n Facebookに登場した人間のようなボットには\n よくわらかない無名の広告\n カニエ・ウェストの隠し撮り\n テイラー・スウィフトのマッシュアップ\n 車の事故や大失敗のGIF\n ロシアの車載カメラの映像\n マックリブにまつわる議論\n 捨てられ、忘れられ、再利用されず\n 混乱し、腐り、無題のまま。"
+    - "还有一些早餐的3D模型\n X时代人的同人小说\n 扫描的杂志\n 绿色屏幕Shia leBoeuf\n 视频里的禁烟场景\n Facebook的逼真马蝇\n 没牌子的广告\n Kanye的即时摄影\n Taylor Swift插件\n Epic Fail上的车祸照片\n 俄国行车记录仪视频\n 关于Mc Ribs的讨论\n 遗弃的，被遗忘的，不能循环易用的，\n 混乱的，腐烂的，无权力的。"
+    - "아침식사의 3D 모델\ngen-xers의 팬픽 소설/ 잡지를 스캔한\n녹색 화면 Shia leBoeuf\nliveleak에 담배 장면을 금지\n페이스북의 실사 봇\n브랜드 명이 없는 광고,\n그리고 kanye의 몰래카메라\ntaylor swift의 매시업\n망친 교통사고\n러시아 대시 캠 비디오\nMcRibs에 대한 토론\n버려지고, 잊혀지고, 재사용되지 않고\n혼란스럽고, 썩어지고, 제목이 없습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_12
+    TermType: 0
+    Description:
+    Languages:
+    - "Everything's fresh for about six seconds\nuntil some newer thing beckons\nand we hit refresh.\nAnd there's years of persevering\nDisappearing into the pile\nOut of style\nOut of sight"
+    - "Всё свежо аж шесть секунд\nпока не появится что-то новое\nи мы жмём \"Обновить\".\nИ упорства годы\nПопадают в отходы\nС глаз долой —\nИз сердца вон"
+    - "全てがおよそ6秒間、新鮮さを保つ。\n 新しい何かが手招きをし、\n 私たちが更新ボタンを押す時まで。\n これに続くのが何年もの受難の時。\n 堆積の中に埋もれ、\n 廃れ、\n 視界から消え去る。"
+    - "一切只新鲜了大约六秒钟，\n 直到一些新的东西到来，\n 我们刷新。\n 坚持了多年的东西\n 成堆的消失\n 过时了\n 看不见了"
+    - "새로운 것들이 나오고, \n새로 고침 할 떄까지 약 6초 동안만 모든 것은 신선합니다. \n그리고 수년간의 인내심이 존재합니다. \n더미로 사라지는 스타일\n유행이 지난\n보이지 않게 되는"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_13
+    TermType: 0
+    Description:
+    Languages:
+    - "In this context it's tempting to make friendly content... \nThat's gentle, that lets you churn through it but not earn it.\nWhy make something demanding, if\nit just gets piled up in the landfill\nFiled in with the bland things?"
+    - "В таких условиях хочется делать дружелюбный контент...\nОн нежен, его легко поглотить, но не заслужить.\nЗачем делать что-то требовательное,\nесли это сразу бросят в кучу\nвместе с безликим мусором?"
+    - "相手目線のコンテンツを作ることは非常に魅力的に見える。\n 優しくて、気楽に遊べて…それでも制覇には繋がらない。\n どうせ埋立地に放り込まれて、\n 当たり障りのないものに混ぜ込まれるなら、\n 破壊的な何かを作ってもいいのではないか。"
+    - "在这种情况下，做出友好的内容是很吸引人的……\n 这很温和，让你通过它生产，但不赚钱。\n 为什么要高要求做事，\n 如果事情只是在垃圾场堆积\n 陆续增加无用的东西？"
+    - "이런 맥락에서 친근한 콘텐츠를 만드는 것은 유혹입니다… \n그것은 부드럽고, 이것을 통해 많은 것의 가능성을 볼 수 있지만, 수입을 올릴 수는 없습니다. \n단조로운 것들이거나 쓰레기통에 버려져 매립지에 쌓여 있다면 뭔가를 요구하는 이유는 무엇입니까?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_14
+    TermType: 0
+    Description:
+    Languages:
+    - "When games were new, they wanted a lot from you.\nDaunting you, taunting you, resetting and delaying you.\nPlayers played stoically. Now everyone’s turned off by that,\nThey want to burn through it quickly, a quick fix for the fickle\nSome tricks for the clicks of the feckless.\nBut that's not you, you're an acrobat\nYou could swallow a baseball bat."
+    - "Когда игры были в новинку, у них была горчинка.\nОни страшили тебя, дразнили, тормозили,\nНо игроки упорно продолжали. Сейчас такое не заходит,\nВсе хотят сожрать всё сразу, каприз для маркиза\nPanem et circenses - \"Хлеба и зрелищ!\"\nНо ты не такой, хоть и не скажешь с виду\nТы проглотил бы и бейсбольную биту"
+    - "ゲームがまだ真新しかった頃、そこでは多くが求められた。\n プレイするものを怯ませ、挑発し、やり直させ、邪魔し…。\n プレイヤーはただ黙々とプレイした。今はそれじゃやっていけない。\n 手短に遊びたがる。そしてすぐに興味はそれる。\n 惰性にすがる人間には、興味を捉える何かを。\n しかし、あなたは違う。あなたは曲芸師だ。\n 野球バットだって、飲み込める。"
+    - "当游戏新出，他们想从你身上得到很多东西。\n 威吓你，嘲弄你，打乱和延误你的安排。\n 玩家们过去很坚忍。现在都坚持不住了，\n 他们想快速烧掉它，快速弥补变幻无常的性格。\n 有些把戏符合不良的品格。\n 但那不是你，你是一个杂技演员，\n 你可以吞下一个棒球棍。"
+    - "게임이 새로울 때, 그들은 당신으로부터 많은 것을 원했습니다. \n당신을 겁나게 하고, 조롱하고, 다시 세팅하고, 연기 했습니다. \n플레이어는 냉정하게 게임을 즐겼고. 이제는 모든 사람들이 그것을 꺼버립니다. \n그들의 변덕스러움을 해결할 수 있는 빠른 해결책을 원하고 있습니다. \n무책임한 클릭에 대한 몇 가지 트릭들. \n하지만 이건 장신이 아닙니다, 당신은 곡예가가 아니며, \n야구방망이를 삼킬 수 있어야 합니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_15
+    TermType: 0
+    Description: '''10 million views'' here refers to youtube view count. '
+    Languages:
+    - "Now I know, most likely you're watching this on Youtube or Twitch\nwhile some dude with 10 million views does it for you\nLike a baby bird being fed chewed-up food.\nThat's culture too"
+    - "Да, скорее всего ты это смотришь на Youtube или Twitch,\nгде какой-то чувак с 10 миллионами просмотров делает это за тебя\nКак птенчик, которому скармливают разжёванную пищу.\nЭто тоже культура"
+    - "まあ、このビデオはYouTubeかTwitchで再生されていることでしょう。\n 1000万回再生レベルの人気チャンネルによるビデオがありますからね。\n まさに、柔らかく反芻した後の食べ物を与えられる、小鳥のよう。\n これすらまた、文化。"
+    - "现在我知道，你很有可能在Youtube或Twitch上观看这个节目，\n 而一些有着10亿访问量的家伙正在看你，\n 就像一只小鸟被喂食着已咀嚼了的食物。\n 这也是文化。"
+    - "지금 저는 알 수 있습니다 유튜브나 Twitch를 통해서 당신은 이것을 시청하고 있을 가능성이 높습니다. \n먹이를 받아먹는 아기 새처럼, 천만 명의 시청자를 가진 친구가 당신을 도와주는 것처럼. \n이것 또한 하나의 문화입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_16
+    TermType: 0
+    Description:
+    Languages:
+    - "But on the off-chance you're playing this, what I'm saying is:\nTrash is disposable but maybe it doesn't have to be approachable\nwhat's the feeling like? are you stressed\nI guess you don't hate it\nif you got this far\nfeeling frustrated\nit's underrated."
+    - "Но если вдруг это ты играешь, я надеюсь ты понимаешь:\nМусор можно выбросить, но он не должен при этом улыбаться в ответ\nкак ты себя чувствуешь? у тебя стресс?\nраз так далеко забрался\nвидимо, ненависти не поддался?\nс чувством фрустрации\nзаслуживаешь овации"
+    - "または滅多にないだろうけど、もしかしたら、これをプレイ中かもしれない。\n そんなあなたへ：ゴミは使い捨てられる。しかし、親しみやすくある必要はない。\n どんな気分ですか？イライラしてますか？\n きっと、嫌いではないはずです。\n もしイライラするほどの\n レベルに到達したなら…\n それは過小評価です。"
+    - "但是你玩这个的几率很小，我的意思是：\n 垃圾是可用完即丢的，但也许是不必要与之接触的，\n 这是怎样的感觉？你有压力么？\n 我猜你不讨厌它，\n 如果你走得远了，\n 感觉沮丧\n 那它是被低估了。"
+    - "그러나 당신이 이것을 플레이하고 있을 가능성은 희박합니다, \n제가 말하자고 하는 것은: 쓰레기는 사용 후에 버릴 수 있지만, \n어쩌면 그 느낌이 무엇인지 가까이 접근할 필요성이 없을 수도 있습니다. \n만약 스트레스를 많이 받고 있다면, 싫어하지 않는 것 같습니다. \n만약 이것에 대해 불만을 가지고 있다면 이것은 과소평가 되고 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_17
+    TermType: 0
+    Description:
+    Languages:
+    - "An orange is sweet juicy fruit\nLocked inside a bitter peel\nThat's not how I feel about a challenge.\nI only want the bitterness\nIts coffee, its grapefruit, its licorice."
+    - "Апельсин - сладкий, сочный фрукт\nЗаперт горькой кожицей\nНо это не выражает моё отношение к трудностям\nЯ хочу только горечь\nЭто кофе, грейпфрут, лакрица"
+    - "みかんは、甘くてジュージーな果物。\n それを覆うのは苦い皮。\n 私が望むチャレンジはこんな見た目ではありません。\n 私は、ただ苦味が欲しい。\n コーヒー、グレープフルーツ、カンゾウ。"
+    - "橘子是一种甘甜的、多汁的水果，\n 外面包裹着苦涩的皮。\n 这不是我对于挑战的感觉。\n 我只想要苦涩\n 它的咖啡，它的葡萄柚，它的甘草。"
+    - "오렌지는 달콤한 과일입니다. \n쓰라린 껍질 안에 갇혀있으며, 이게 제가 도전에 대해 느끼는 방식은 아닙니다. \n저는 단지 괴로움만을 원합니다, \n커피, 자몽 그리고 감초같이."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_18
+    TermType: 0
+    Description:
+    Languages:
+    - "It feels like we're closer now\nComposer and climber\nDesigner and user\nYou could have refused but you didn't\nThere was something in you that was hidden\nThat chose to continue"
+    - "Как будто мы стали ближе\nКомпозитор и скалолаз\nДизайнер и юзер\nТы мог отказаться, но не стал\nЧто-то в тебе было скрыто\nЧто-то, что решило продолжить"
+    - "接近を感じませんか。\n 設計者と登山家。\n 開発者とユーザー。\n 断ることならできたが、そうはしなかった。\n あなたの中には、何かが潜んでいた。\n それが、進むことを選んだ。"
+    - "好像我们现在离得更近了\n 创造者和攀登者\n 设计师和使用者\n 你本可以拒绝，但是你没有\n 你身上有东西被隐藏起来了\n 那选择继续"
+    - "우리가 더 가까워진 것 같습니다\n작곡가와 등산가\n디자이너와 사용자\n당신은 거부할 수 있지만 하지 않았습니다\n숨겨진 당신 안에 무언가 있습니다\n그것을 계속하기로 결정했습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_19
+    TermType: 0
+    Description:
+    Languages:
+    - "It means a lot to me\nThat you've come this far\nEndured this much\nEvery wisecrack, every insensitivty\nEvery setback you've forgiven me\nIs a kingly gift you've given me"
+    - "Для меня это очень важно\nЧто ты так далеко зашёл\nСтолько пережил\nКаждое язвление, каждый курьёз\nКаждое падение что ты перенёс\nЭто царский дар ты мне преподнёс"
+    - "これが意味することは実に大きい。\n あなたがここまで来てくれた。\n 忍び、耐え抜いて。\n 全ての辛辣なる言葉、鈍感なる感性。\n 私の妨げの数々を許してくれました。\n これの全てが、あなたから私へ与えられた贈り物です。"
+    - "这对我来说意义重大\n 你已经来到这里\n 忍耐了这么多\n 所有的俏皮话和迟钝\n 所有的失败，这些你都原谅了我\n 你给了我国王般的恩赐"
+    - "이건 저에게 큰 의미입니다\n당신은 지금까지 왔습니다\n이만큼 참았습니다\n모든 위선, 모든 불감증\n당신이 용서한 모든 방해\n당신이 내게 주신 큰 선물입니까"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_20
+    TermType: 0
+    Description: There is a literal snake at this point of the game.
+    Languages:
+    - "We have the same taste, you and I\nIt's not ambition.\nIt's ambition's opposite.\nAn obdurate mission to taste defeat\nYou'll feel bad if you win\nSo I put this snake in for you"
+    - "У нас с тобой похожий вкус\nЭто не амбициозность.\nЭто её противоположность.\nУпрямое стремление испытать поражение\nТебе станет хуже если ты победишь\nПотому я поставил эту змею для тебя"
+    - "同じ、趣向。これが私とあなたにはある。\n これは決して野心ではない。\n むしろ、その逆。\n 強情なまでの、苦杯を嘗めるという任務。\n 勝利してしまっては、気持ちが悪いでしょう。\n そこで、蛇を用意しました。"
+    - "我们有同样的品味，你和我\n 这不是野心。\n 它与野心相反。\n 这是一个体会失败的残酷任务\n 如果你赢了，你会感觉糟糕。\n 所以我为你放进了这条蛇。"
+    - "우리는 같은 입맛을 가지고 있으며,\n이것은 야망이 아닙니다\n이것은 야심과 반대입니다.\n패배를 맛보기 위한 완고한 입장\n당신이 이기면 기분이 나쁠 것입니다\n그래서 저는 당신을 위해 뱀을 넣었습니다"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_21
+    TermType: 0
+    Description: The pot is more like a cauldron, a big iron thing.
+    Languages:
+    - "Have you thought about who you are in this\nAre you the man in the pot, Diogenes?\nAre you his hand?\nAre you the top of the hammer?\nI think not—\nWhere your hand moves, the hammer may not follow\nnor the man, nor the man's hand.\nIn this you are his WILL. His intent. \nThe embodied resolve in his uphill ascent. "
+    - "А ты задумывался о том, кто во всём этом ты,\nТы мужчина в котле, Диоген?\nТы его рука?\nТы верхушка молотка?\nДумаю, нет—\nКуда ты двинешь рукой, молот может не следовать\nкак и мужчина, как и его рука.\nВ этом ты его ВОЛЯ. Его намерение.\nВоплощение решимости в его восхождении."
+    - "ここで、あなたとは誰なのか。考えたことは？\n 大釜の中にいる男、ディオゲネス？\n 彼の手？\n ハンマーの先っちょ？\n どれも違うでしょう。\n あなたの手の動く所に、ハンマーは続かず。\n その男も、男の手も。\n あなたは彼の意思…意図なのです。\n 上へと進みたいと願う気持ちの象徴。"
+    - "你有想过你是谁吗？\n 是在锅里的男人，第欧根尼？\n 你是他的手吗？\n 你是锤子的顶端吗？\n 我想不是 -\n 你的手移动，锤子并不会一起移动，\n 男人以及男人的手也没有移动。\n 在这里你是他的意愿。他的目的。\n 向上攀爬途中体现的决心。"
+    - "당신이 누군지에 대해 생각해 봤습니까?\n냄비 안에 있는 사람입니까, 디오게네스씨?\n당신은 그의 손입니까?\n당신은 망치의 끝입니까?\n저는 그렇게 생각하지 않습니다\n손이 움직이는 곳에, 망치가 따라가지 않을 수 있습니다\n남자도 남자의 손도 아닙니다.\n당신은 그의 의지입니다. 그의 의도. 오르막길을 올라갈 때 구체화된 해결방법입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_22
+    TermType: 0
+    Description:
+    Languages:
+    - "Now you've conquered the ice cliff,\nThe platforms the church and the rectory,\nThe living room and the factory,\nThe playground and the construction site,\nThe granite rocks and the lakeside.\nYou've learned to hike.\nThere's no way left to go but up\nAnd in a moment I'll shut up, but let me say\nI'm glad you came."
+    - "Ты покорил ледяной обрыв,\nПлатформы, церковь, дом священника,\nГостинную и фабрику,\nДетскую и стройплощадку,\nГранитные скалы и берег озера,\nТы прошёл весь путь.\nИ больше некуда идти, но вверх\nИ скоро я заткнусь, но я хочу чтоб ты это услышал:\nЯ рад что ты пришёл"
+    - "ついに、氷の崖も攻略。\n プラットホーム、教会、牧師館\n リビング、工場\n 遊び場、建設現場\n 花崗岩、湖畔。\n あなたはもう立派な、登る者。\n ただひたすらに進むべし。\n そして、ただこの言葉を伝えたい。\n ここへ、ようこそ。"
+    - "现在你已经征服了冰崖，\n 教堂和住宅，\n 客厅和工厂，\n 游乐场和建筑工地，\n 花岗岩和湖边。\n 你学会了徒步旅行。\n 现在只能往上走，\n 一会儿，我会闭嘴，但让我说，\n 我很高兴你来了。"
+    - "이제, 얼음 절벽을 정복했습니다, \n플랫폼 교회와 교구, \n거실과 공장, 놀이터와 건설 현장, \n화강암 바위와 호숫가, \n당신은 하이킹을 배웠습니다. \n올라가지 않고 떠날 방법은 없습니다. \n그리고 잠시 후에 나는 입을 다물고 말하겠지만, \n당신이 와서 너무 기쁩니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_23
+    TermType: 0
+    Description:
+    Languages:
+    - "I dedicate this game to you, the one who came this far.\nI give it to you with all my love."
+    - "Я посвящаю эту игру тебе, тот кто зашел так далеко.\nЯ даю её со всей своей любовью."
+    - "ここまでたどり着いたあなたに、このゲームを捧げます。\n 全身全霊の感謝を込めて。"
+    - "我把这个游戏献给你，你已经付出很多了。\n 我用我所有的爱把它献给你。"
+    - "나는 이 게임을 여기까지 와준 당신에게 주었습니다. \n내 사랑을 다해 당신에게 줄것입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_MOUSE_CLICKED
+    TermType: 0
+    Description: \n is the newline separator for this one
+    Languages:
+    - Listen, this is a little awkward, but\nyou've clicked the mouse button 500 times now.\nI'm gonna say you're gripping the mouse a little hard.
+    - Слушай, это немного неловко, но\nты уже нажал на кнопку мыши 500 раз.\nЯ думаю ты слишком сильно сжимаешь мышь.
+    - "ちょっと変な話かもしれませんが、\n マウスのクリックが500回に到達しました。\n もう少し気を楽にして、やっていきましょう。"
+    - "听着，这有些尴尬，\n 但是你现在已经点击500次鼠标了。\n 我说你现在把鼠标抓的有点紧了。"
+    - "들어보세요, 이건 좀 어색하지만, 당신은 마우스를 500번 클릭했습니다. \n당신이 마우스를 조금 세게 쥐고 있다고 말하고 싶습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_STUCK_ANTENNA
+    TermType: 0
+    Description:
+    Languages:
+    - You got so close, but this is past mending. You got the bad ending.
+    - Ты так близко, но тут не спасёт никакая сноровка. У тебя плохая концовка.
+    - あなたはとても近づいていますが、これは修正できません。 これは悪い結末です。
+    - 你有这么近，但这是过去的修补。你有坏的结局。
+    - 당신은 너무 가깝습니다, 그러나 이것은 과거의 파손품입니다, 당신은 비참한 최후를 맞았습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DO_NOT_RIDE_SNAKE
+    TermType: 2
+    Description:
+    Languages:
+    - snakesign_color
+    - snakesign_color
+    - snakesign_color
+    - snakesign_color
+    - snakesign_color
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Disclaimer
+    TermType: 0
+    Description: This should sound a bit like a legal disclaimer.
+    Languages:
+    - I solemnly swear that I am not recording or streaming this, and I understand that only those who have climbed are welcome.
+    - Я торжественно клянусь, что я не записываю и не транслирую это, и я понимаю, что здесь рады только тем, кто взобрался.
+    - 粛々と、これの録画やストリーミング配信をしていないことを、ここに誓います。登った人だけが大歓迎です。
+    - 我郑重地发誓，我没有录音或流式传输，我知道只有那些爬过的人才能受到欢迎。
+    - 나는 기록이나 스트리밍을 하지 않겠다고 엄숙하게 맹세하며, 올라간 사람들만 환영한다는 것을 이해하고 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Effects volume
+    TermType: 0
+    Description: Sound effects volume
+    Languages:
+    - Effects volume
+    - Громкость эффектов
+    - エフェクトボリューム
+    - 音效音量
+    - 효과음 볼륨
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Fullscreen
+    TermType: 0
+    Description:
+    Languages:
+    - "Fullscreen\t"
+    - Полный экран
+    - フルスクリーン
+    - 全屏
+    - 전체 화면
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: If you re alone  you can come inside and say hello
+    TermType: 0
+    Description:
+    Languages:
+    - If you're alone, you can come inside and say hello.
+    - Если тебе одиноко, можешь зайти внутрь и поздороваться.
+    - あなたが一人であれば、あなたは入ります。
+    - 如果你孤单，你可以进来打个招呼。
+    - 만약 당신이 혼자라면, 안으로 들어와 인사할 수 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: LOADING
+    TermType: 0
+    Description:
+    Languages:
+    - Loading...
+    - Загрузка ...
+    - 読み込み中…
+    - 载入中
+    - 로딩중…
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Motion Blur
+    TermType: 0
+    Description:
+    Languages:
+    - Motion Blur
+    - Motion Blur
+    - モーションブラー
+    - 运动模糊
+    - 모션 블러
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Mouse
+    TermType: 0
+    Description: As in computer mouse
+    Languages:
+    - Mouse
+    - Мышь
+    - マウス
+    - 鼠标
+    - 마우스
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Mouse sensitivity
+    TermType: 0
+    Description:
+    Languages:
+    - Mouse sensitivity
+    - Чувствительность мыши
+    - マウス感度
+    - 鼠标灵敏度
+    - 마우스 감도
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Music volume
+    TermType: 0
+    Description:
+    Languages:
+    - Music volume
+    - Громкость музыки
+    - 音楽ボリューム
+    - 音乐音量
+    - 음악 볼륨
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: New Game
+    TermType: 0
+    Description: Button to start new game
+    Languages:
+    - New Game
+    - Новая Игра
+    - はじめから
+    - 新游戏
+    - 새로운 게임
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: No
+    TermType: 0
+    Description: (Declining an invitation to see the reward)
+    Languages:
+    - No
+    - Нет
+    - いいえ
+    - 不
+    - 아니요
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Noway Bold SDF
+    TermType: 7
+    Description:
+    Languages:
+    - Noway Bold SDF
+    - AvenirNext Bold SDF
+    - NotoSansCJKjp Bold SDF
+    - SourceHanBold
+    - SourceHanSansK-Bold SDF
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Noway Regular SDF
+    TermType: 7
+    Description:
+    Languages:
+    - Noway Regular SDF
+    - AvenirNext Regular SDF
+    - NotoSansCJKjp Regular SDF
+    - SourceHanNormal
+    - SourceHanSansK-Normal SDF
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_03
+    TermType: 0
+    Description:
+    Languages:
+    - This... is tougher than it looks.
+    - Это... сложнее, чем кажется.
+    - これは…見た目以上にタフ…。
+    - 这...比看起来要更硬一些。
+    - 이것은 보기보다 더 어렵습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_04
+    TermType: 0
+    Description:
+    Languages:
+    - "Don't just flail wildly with your hammer.\nThis is a game about knowing when to use force and when to use finesse. Plan carefully, and execute freely."
+    - "Не стоит просто махать молотком.\nЭто игра о понимании когда использовать силу, а когда - ловкость. Тщательно планируй, делай с лёгкостью."
+    - "ただハンマーを振り回すだけではいけない。\n いつ力と才能を使うのか。これがゲームを制する。\n 注意深く計画し、自由に進むこと。"
+    - "不要只是用您的长柄锤乱打。\n 玩这个游戏需要知道什么时候使用武力和什么时候使用策略。仔细计划，然后灵活执行。"
+    - "당신의 망치로 마구 휘둘러 치지 마십시오. \n이 게임은 힘을 언제 사용하고 기술을 언제 사용해야 하는 지를 아는 것에 관한 게임입니다. \n신중하게 계획하고 자유롭게 실행해보세요."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_05
+    TermType: 0
+    Description:
+    Languages:
+    - You can hit the escape key if you need to change the mouse sensitivity.
+    - Вы можете нажать Escape если нужно сменить чувствительность мыши.
+    - マウス感度を変えるには、escキーを押してください。
+    - 如果您需要更改鼠标的灵敏度，您可以点击退出键。
+    - 마우스 강도를 변경하야 하는 경우 이스케이프 키를 누를 수 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_06
+    TermType: 0
+    Description:
+    Languages:
+    - 'I can absolutely assure you that it''s possible to proceed here. '
+    - Я абсолютно точно уверяю что это место проходимо.
+    - ご心配なく、ここから続行することができます。
+    - 我绝对可以向您保证，这里继续前进。
+    - 여기서 계속 할 수 있다는 것을 장담할 수 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_07
+    TermType: 0
+    Description:
+    Languages:
+    - I’ve seen a lot of people get stuck here. You can’t get there just by reaching and dragging, you’re going to need to try something a little bit more athletic.
+    - Я видел как многие тут застревали. Ты не сможешь туда добраться просто выдвигая и протягивая, прийдётся попробовать что-то чуть более спортивное.
+    - ここで躓く人は幾度となく見てきました。ただ手を伸ばし、引っ張るだけでは進めないことも。ここで必要なのは、もっと躍動感のある何か。
+    - "我看到很多人被困在这里。\n 只伸手摸和拽是到不了那里的，您将需要用一些力度强点的动作。"
+    - "많은 사람들이 여기에 갇혀 있는 것을 보았습니다. \n버티고 끌기만 해서 거기에 도착할 수 없습니다, \n조금 더 운동을 하여 노력이 필요합니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_08
+    TermType: 0
+    Description:
+    Languages:
+    - 'If you need to take a break, it''s ok. I''ve saved your progress. '
+    - Если тебе нужно сделать перерыв, не волнуйся. Я сохранил твой прогресс.
+    - ちょっと休みたい時でも、ご心配なく。ちゃんとデータは保存しています。
+    - 如果您需要休息一下，没关系，我已经保存了您的进度。
+    - 휴식을 취해야 한다면, 괜찮습니다. 당신의 업적을 저장해 놓을 것입니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_09
+    TermType: 0
+    Description:
+    Languages:
+    - "In this game there's two types of jump. The hop, where you push the hammer really hard into the ground. \nAnd the fling, where you rotate the hammer to launch yourself up from a ledge. "
+    - "В этой игре есть два типа прыжка. Подскок, когда ты с силой толкаешь молотком в землю.\nИ бросок, когда ты вращаешь молоток чтобы запустить себя с уступа."
+    - "このゲームには2種類のジャンプがある。ホップでは、地面を強く叩いて、その反動で飛び上がる。\n フリングでは、ハンマーを回し、出っ張りを利用して自分自身を引き上げる。"
+    - "这个游戏中有两种跳跃方式。\n 短距离跳跃，您很难将锤子推入地面。\n 远距离跳跃，您可以从岩壁上发力，旋转锤子推入地面。"
+    - "이 게임에서는 두 가지 유형의 점프가 있습니다. \n깡충 뛰면 실제로 망치를 땅에 밀어 넣을 수 있습니다. \n그리고 내던지만, 망치가 돌아가서 난간 위로 자신을 쏘아 올릴 수 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_10
+    TermType: 0
+    Description:
+    Languages:
+    - Think about the momentum of the pot. Sometimes when you want to go high you have to lower yourself down first so you have room to swing your hammer.
+    - Подумай об инерции котла. Иногда, когда ты хочешь подняться выше, сперва тебе нужно опуститься чтобы хватило места раскачать молоток.
+    - 大釜の潜在能力を考えてみましょう。上に行くには、身を屈めて、十分にハンマーを振り降ろすだけのスペースを作ることも大事。
+    - 考虑一下锅的冲力。有时当您想要往高处走，必须先低下身子，这样您才有足够的空间摆动锤子。
+    - "가마솥의 추진력에 대해서 생각해보십시오. \n가끔 높이 올라가기를 원할 때 너 자신을 낮춰야 하므로, \n망치를 휘두를 장소가 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_11
+    TermType: 0
+    Description:
+    Languages:
+    - I've I'm messing you up, you can mute me in the settings.
+    - Если я мешаю, то меня можно заглушить в настройках.
+    - 色々と口煩かったら、私の言葉を設定から消すこともできます。
+    - 我已经把您搞乱了，您可以在设置里让我静音。
+    - 당신을 망치고 있습니다, 세팅에서 음소거를 할 수 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_12
+    TermType: 0
+    Description:
+    Languages:
+    - If your hand is starting to get sore, find a safe spot and then just take a rest.
+    - Если твоя рука начинает болеть, то найди безопасное место и просто отдохни.
+    - 手が疲れてきたら、安全な場所を探し、ちょっとゆっくりしましょう。
+    - 如果您的手开始疼，找一个安全的地方，然后休息一下。
+    - 손이 아프기 시작하면, 안전한 곳을 찾은 다음 휴식을 취하세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_13
+    TermType: 0
+    Description:
+    Languages:
+    - It’s just you and the hammer. And the pot.
+    - Только ты и молоток. И котёл.
+    - あなたとハンマーとの戦いです。あと大釜も、ですね。
+    - 这只有您和锤子，还有锅。
+    - 이것은 단지 당신과 망치일 뿐입니다. 그리고 냄비도 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_15
+    TermType: 0
+    Description:
+    Languages:
+    - Haha, the slight angle on the rock here makes it much harder than it otherwise would be.
+    - Ха-ха, небольшой угол на этом камне делает всё намного сложнее чем было бы иначе.
+    - この岩の絶妙な角度は、これでもか…というくらいの難易度ですよね。
+    - 哈哈，这里岩石上的微小的角度使它比其他情况更难。
+    - 하하, 여기 바위에 약간의 각도는 그렇지 않은 것보다 더 힘들게 만들 것입니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_16
+    TermType: 0
+    Description:
+    Languages:
+    - The pot and the hammer are heavy, which makes angled surfaces so hard to grip.
+    - Котёл и молот тяжелы, что затруднят захват наклонных поверхностей.
+    - 大釜とハンマーは重い。だからこそ、角度のついた場所でグリップを保つのは簡単ではありません。
+    - 锅和锤子很重，这要抓住倾斜表面很困难。
+    - 냄비와 망치는 아주 무겁기 때문에 각이 있는 표면을 잡기가 어렵습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_17
+    TermType: 0
+    Description:
+    Languages:
+    - You’ve done this part before, you know it’s possible. Just do what you did the first time.
+    - Ты уже проходил эту часть, ты знаешь что это возможно. Просто делай то же, что и в первый раз.
+    - ここは以前にクリア済みです。あなたならできる。前の要領でもう一回。
+    - 您以前做过这个部分，您知道您是可以的。就像您第一次做那样。
+    - "당신은 이 부분을 경험한 적이 있습니다, 이것이 가능하다는 사실을 알고 있습니다. \n처음처럼 다시 시도해보세요."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_18
+    TermType: 0
+    Description:
+    Languages:
+    - Yeah, this part is hard, sorry. In my testing, a lot of people would just freak out and stop at this point.
+    - Да, это сложный кусок, извини. Во время тестирования, многие люди просто психовали и бросали игру на этом куске.
+    - 本当に、ここは難所でして…ごめんなさい。試験段階では、多くの人がここで、つまずいていました。
+    - 对，这部分很难，对不起。在我的测试中，很多人会在这个时候吓到，停下来。
+    - 예, 이 부분은 힘듭니다, 죄송합니다. 테스트에서 많은 사람들은 지쳤을 것이고 이 부분에서 멈추게 될 것입니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_19
+    TermType: 0
+    Description:
+    Languages:
+    - It’s really not as bad as it looks though, just go up one step at a time.
+    - На самом деле это не так сложно как кажется, просто поднимайся по одной ступени за раз.
+    - 大丈夫、見た目ほど難しくはありません。一度に、ワンステップずつ進みましょう。
+    - 尽管它并不像看起来那么糟糕，一次一个脚步地走。
+    - 보이는 것만큼 나쁘지 않습니다, 한 번에 한 단계씩 올라가 보세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_20
+    TermType: 0
+    Description:
+    Languages:
+    - "Hang in there. Don't let it get to you.\nBut also... let it get to you a little bit."
+    - "Держись, не унывай.\nНо в тоже время... разве что совсем чуть-чуть."
+    - "頑張れ！負けるな！\n でも、ちょっと身を任せることも大事。"
+    - "忍耐一下，不要让它靠近您。\n 还有……让它离您远点。"
+    - "거기에서 매달리세요. 너무 낙심하지 마세요. \n그러나 또한… 조금 더 신경 써보세요."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_21
+    TermType: 0
+    Description:
+    Languages:
+    - "My favorite feeling in videogames is when you know you're expected to proceed, but progress seems actually impossible.  \nYou're left only with your own frontiering spirit, the knowledge that if you persevere you'll find your way."
+    - "Моё любимое чувство в видеоиграх это когда ты знаешь что игра ждёт что ты пройдёшь дальше, но продвижение выглядит действительно невозможным.\nИ ты остаёшься лишь со своим духом первопроходца и знанием, что если ты приложишь достаточно усилий, то найдёшь путь."
+    - "ゲームにおける最高の感覚。…進めるはずだと思っていたのに、いきなり「無理じゃん」と立ち止まる瞬間。\n そこにあるのは、あなたの開拓者精神と、“信念が道を開く”という知性。"
+    - "在电子游戏中，我最喜欢的一种感觉是，你知道你应该继续下去的时候，进步却似乎是不可能的。\n 你只剩下勇往直前的精神，和坚持就会找到方向的认知。"
+    - "비디오 게임에서 가장 좋아하는 느낌은 당신이 계속해서 진행할 것을 알아차릴 때지만, \n진행은 실제로 불가능해 보입니다. 당신은 개척자 정신만 가지고 있고, \n인내한다면 당신의 길을 찾을 수 있을 것입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_22
+    TermType: 0
+    Description:
+    Languages:
+    - "Oftentimes, making progress in this game is about chaining together multiple movements. \nTry to break them down into their component parts."
+    - "Зачастую, прогресс в этой игре связан с объединением нескольких движений.\nПопытайся разбить их на части."
+    - "このゲームでは、多くの場合、複数の動きを連動させることがコツになります。\nその動きを分解して考えるのが、おすすめです。"
+    - "在这个游戏中要取得进步，往往要把多个动作链接在一起。\n 试着把它们分解成组成部分。"
+    - 종종, 게임에서 진전을 이루는 것은 여러 움직임을 하나로 묶는 것과 같습니다. 구성 요소들을 분해해보세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_23
+    TermType: 0
+    Description:
+    Languages:
+    - "The vertical wall has a way of getting harder the more times you try it. \nI think anger makes you swing the hammer harder, and that can push you away from the wall."
+    - "Вертикальная стена как будто становится сложнее с каждой пробой.\nЯ думаю, гнев заставляет тебя сильнее махать молотком, и это отталкивает тебя от стены."
+    - "そり立つ壁は…挑戦すればするほど、厄介になるもの。\n イライラが溜まると、ハンマーはどんどん強く振り下ろすようになり、それによって、\n自分はさらに壁から遠ざかっていく。"
+    - "穿过垂直的墙的时候，你尝试的次数越多，难度越高。\n 我认为愤怒使你更难以挥动锤子，也会是你远离墙壁。"
+    - "수직벽에 시도를 할 때마다 더 힘들어 질 수 있습니다. \n당신의 분노가 망치를 더 세게 휘두르게 하고, \n그것이 벽에서 당신을 밀어낼 수 있다고 생각합니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_24
+    TermType: 0
+    Description:
+    Languages:
+    - 'Easy does it in this section. Which is not to say it''s easy, just... take it easy. '
+    - Делай лёгкие движения и ты пройдёшь этот кусок. Не то чтобы это было легко или просто, но... будь попроще.
+    - 楽に考えるのが、ここでのコツ。決して「楽勝な場所」という意味ではなく…ただ気楽な気持ちでやってくださいね。
+    - 这部分容易做到。不是说这很容易，只是...放松一下。
+    - 이 섹션은 쉽습니다. 쉽다고 말하고 싶지는 않지만…. 쉬엄쉬엄 하세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_27
+    TermType: 0
+    Description:
+    Languages:
+    - From this point, this minute, there’s no more safety nets. Don’t be hasty, yet don’t be timid.
+    - С этого момента, с этой минуты - никаких сетей безопасности. Не спеши, но и не робей.
+    - ここからは、セーフティネットは無くなります。急がず、かといって、臆病にもならず…でいきましょう。
+    - 从这一点来说，这一刻起，再也没有安全网了。不要急躁，不要胆怯。
+    - 이 시점에서부터, 더 이상 안전망이 없습니다. 서두르지 말고 겁먹지 마세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_30
+    TermType: 0
+    Description:
+    Languages:
+    - You know what to do. Vault over the barbecue, go for it.
+    - Ты знаешь что делать. Перепрыгивай через барбекю, давай давай.
+    - するべきことはただ一つ。バーベキューを超えるべし。
+    - 你知道该怎么做。从烤架上跳过去吧，加油。
+    - 알아서 잘 할 수 있습니다. 바비큐를 뛰어넘어보세요, 힘내세요!
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_31
+    TermType: 0
+    Description:
+    Languages:
+    - A lot of people get a little scared here. I’m scared for you! There are those who didn’t leap and those who dared to.
+    - Многим здесь слегка страшно. Я боюсь за тебя! Есть те, кто не прыгнул, и те, кто осмелился.
+    - 多くの人がここで怖気付いてしまいます。私もあなたと同じ気持ち！ただし、恐れと共に進むことに意味があるのです。
+    - 很多人来到这里都有些害怕，我对您感到害怕！有些人不敢跳，有的人敢。
+    - 많은 사람들이 여기서 조금 겁을 먹게 됩니다. 당신이 걱정됩니다! 뛰어오르지 못한 사람들과 시도했던 사람들이 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_33
+    TermType: 0
+    Description:
+    Languages:
+    - I don't mean to go on but I do want you to go on. Go on!
+    - Я не собираюсь продолжать, но я хочу, чтобы ты продолжил. Продолжай!
+    - 邪魔するつもりはありません。ただただ、その歩みを応援したいだけ。
+    - 我不打算继续，但我希望你继续下去。坚持！
+    - 당신을 지루하게 하고 싶지 않았어요, 당신이 계속하기를 원합니다, 계속해보세요!
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_34
+    TermType: 0
+    Description:
+    Languages:
+    - "Steady, steady...\nSteady."
+    - "Спокойно, спокойно...\nСпокойно."
+    - しっかりと安定性に意識を集中しましょう。
+    - 稳住，稳住……稳住。
+    - 침착해서, 침착하게…. 서두르지 마세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_35
+    TermType: 0
+    Description:
+    Languages:
+    - You’re back here again, showing patience and then attacking, scraping then flapping and snagging.
+    - Ты снова тут, проявляешь терпение, нападаешь, скребёшь, потом падаешь и цепляешься.
+    - お帰りなさい。忍耐力のもと突っ込み、がっちり、引っ掛け、スッキリ…。
+    - 您又回到了这里，有耐心，然后攻击，擦身而去，摆动身体，然后抓住障碍物。
+    - 다시 여기로 들아와서 인내심과 함께 공격하고, 긁어내고, 펄럭거리며 낚아 채보세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_36
+    TermType: 0
+    Description:
+    Languages:
+    - In this section you’re forced to go quick, it’s a lesson with no protection, a course of three tricks.
+    - В этой части тебе нужно двигаться быстро, это урок без страховки, муштра на три трюка.
+    - この場所では素早さが要求されます。何の守りもないレッスンです。3つのトリックを学ぶための授業だと、お考えください。
+    - 在这一环节中，您必须得加速，这里没有任何保护，只有三种技巧。
+    - 이 섹션에서는 빠르게 진행되어야 합니다. 보호 기능이 없는 레슨으로, 세 가지 트릭이 있습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_38
+    TermType: 0
+    Description:
+    Languages:
+    - You’ll be back here again and again, avenge and repent and until you've ascended, or until you’re contented.
+    - Ты вернёшься снова и снова, будешь мстить и каяться пока не вознесёшься, или пока не умиротворишься
+    - 何度も、何度も、ここへ戻る。リベンジし、後悔し。上へ進むか、もしくは、満足するその日まで。
+    - 你会一次又一次地回到这里，复仇，悔改，直到您往上走或者满足为止。
+    - 복수하고 뉘우치고, 올라갈 때까지 또는 만족할 때까지 다시 돌아올 것입니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_39
+    TermType: 0
+    Description:
+    Languages:
+    - Now you’re through, so hurry up the stairs, and hammer a chair. Don’t worry, the camera is with you.
+    - Теперь когда ты прошёл, поспеши по лестнице и ухватись за стул. Не бойся, главный герой всегда побеждает.
+    - さあ、この調子で、階段を駆け抜け、ハンマーで椅子を打ちましょう。大丈夫、あなたはちゃんと、私の目に映っていますよ。
+    - 现在你已经通过了，所以赶紧走上楼梯，捶一下椅子。别担心，你是安全的。
+    - 이제 끝났으니 계단을 서둘러서 올라가고, 의자를 망치로 치세요. 걱정하지 마세요 카메라는 당신과 함께 있으니 피해를 입지 않을 것입니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_40
+    TermType: 0
+    Description:
+    Languages:
+    - "You may need to chain more than one move in sequence here. \nLeap catch push, push leap catch, move with speed and with frequency. "
+    - "Возможно тебе понадобится цепочка из нескольких трюков.\nПрыгнуть-схватить-толкнуть, толкнуть-прыгнуть-схватить, двигай быстро и часто."
+    - "ここでは、複数の動きを組み合わせることが、ポイント。\n ジャンプ、キャッチ、プッシュ。ジャンプ、キャッチ、プッシュ。これを素早く繰り返しましょう。"
+    - "您可能需要按顺序链接多个动作。\n 跳抓推，推跳抓，移动时保持速度和频率。"
+    - "순서대로 둘 이상의 이동을 연결해야 할 수도 있습니다. \n뛰고 잡고 밀기, 밀고 뛰고 잡기, 속도를 내서 신속하게 움직이기."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_42
+    TermType: 0
+    Description:
+    Languages:
+    - The living room is cluttering, with little room for hammering. I’m leaving room for stammering and stuttering and suffering.
+    - В гостинной загромождения, мало места для молотения, зато полно для заикания и страдания.
+    - 煩雑な部屋はとても狭い。ハンマーを打ちおろすスペースは、これくらい。部屋を去る私の口に、言葉はない。漂う空気は、ただ切ない。
+    - 客厅很混乱，没地方可敲。我要留下结巴，口吃和痛苦的空间。
+    - "거실이 망가져 있어 망치질을 할 공간이 많이 없습니다. \n말을 더듬거리고 고통을 당하고 있는 방을 떠날 겁니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_45
+    TermType: 0
+    Description:
+    Languages:
+    - 'Wow, you’re doing really well, it’s heartening to see. Remember restarting? Remember when you quickly fell? '
+    - Ух ты, у тебя очень хорошо получается, рад видеть! Помнишь рестарт? Помнишь когда ты быстро упал?
+    - 素晴らしい身のこなしですね。見ているだけで、幸せな気分になれます。リスタートを繰り返した日々…すぐに落ちていた日々を覚えていますか？
+    - "哇，您做得很好，真是振奋人心。记住要重新开始了吗？\n 还记得你什么时候快速跌倒了么？"
+    - "와우, 정말 잘하고 있습니다. 보고 있으니 힘이 나네요. \n다시 시작하는 것을 기억하십니까? 빠르게 떨어졌을 때를 기억하십니까?"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_48
+    TermType: 0
+    Description:
+    Languages:
+    - "People sometimes ask me whether I can finish my own games. \nIn this case, I got to the final obstacle, several times\nAnd I fell all the way back down to the beginning of the game. \nSo I know it can be done, but I haven’t done it. Maybe you'll be the first."
+    - "Люди иногда спрашивают могу ли я пройти собственные игры.\nВ этом случае, я дошёл до последнего препятствия, несколько раз.\nПотом я упал в самое начало игры.\nТак что я точно знаю что это возможно, но сам этого не делал. Может ты будешь первым."
+    - "実際、自分のゲームはクリアできるのかと、多くの人に聞かれました。\n 私は、最後の方まで、数回、たどり着き…\n 不意に、ゲームの最初まで逆戻りしました。\n 可能であることはわかっています。でも私は、まだクリアしたことがありません。あなたが最初の一人…かもしれませんね。"
+    - "人们有时会问我是否可以完成自己设计的游戏。\n 在这个游戏里，我好几次到达最后一关，\n 然后退回游戏的开始。\n 所以我知道这是可以做到的，只是我没有做到。也许你会成为第一个。"
+    - "사람들은 때로는 내 게임이 끝나는지를 묻습니다. \n이 경우 저는 마지막 장애물에 여러 번 도달하고, 다시 게임의 처음으로 떨어진 적이 있습니다. \n나는 그것이 가능하다는 것을 알지만, 해본 적은 없습니다. \n당신이 처음이 될 수도 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_49
+    TermType: 0
+    Description:
+    Languages:
+    - 'If you fall here don''t panic, don''t twitch, the slow hammer can catch but the manic hammer will only throw you. '
+    - Если ты сюда падаешь не паникуй, не дёргайся, плавный молот всё поймает, но резкий только обломает.
+    - ここで落ちても、パニックになる必要はない。ゆっくりとしたハンマーの動きで、キャッチが可能です。思いっきり振り回すと、逆に自分が飛んでいくだけ。
+    - 如果你跌倒了，不要惊慌，不要抽搐，缓慢的锤子可以抓住，但是急躁的锤子只会把你扔掉。
+    - "당신이 여기 떨어진다면, 당황하지 마세요, 천천히 움직이는 망치를 잡을 수 있을 것입니다, \n하지만 정신없는 망치는 당신을 던질 수 있을 것입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_51
+    TermType: 0
+    Description:
+    Languages:
+    - 'This part has the hardest leap in the game, the most awkward. Strike the anvil and forge a way forward. '
+    - Этот кусок—самый сложный прыжок в игре, самый неудобный. Бей по наковальне и куй путь в светлое будущее.
+    - ここであなたに襲いかかるのは、最もきつい…そして最も変なジャンプ。金床を打って、先に進みましょう。
+    - 这部分是游戏中最艰难的一步，也是最令人尴尬的。打铁砧，然后开拓前进。
+    - "이부분은 게임에서 가장 다루기 힘들며 힘든 도약이 될 것입니다. \n모루를 치고 나아가는 길을 만들어보세요."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_52
+    TermType: 0
+    Description:
+    Languages:
+    - Sorry about the bats, by the way. That was uncalled for.
+    - Извини за летучих мышей, если что. Это я зря.
+    - コウモリに関しては、ただただ、ごめんなさい。本来、お呼びでないはずなんですけどね。
+    - 顺便说一下，关于蝙蝠要说一声抱歉。这是不需要的。
+    - 박쥐에 대해 유감스럽게 생각합니다. 그건 적절치 못했습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_53
+    TermType: 0
+    Description:
+    Languages:
+    - "You fell from above but I know you won't linger here. \nYour hammer's no longer, your jump is no stronger, but your hunger will tell. "
+    - "Ты упал сверху но я знаю ты не задержишься.\nТвой молот не длинней, прыжок не сильней, но жажда проявится."
+    - "落下は酷なもの…でも、あなたはここで終わるような人じゃない。\nハンマーとジャンプに疲れが見えても、志は決して枯れない。"
+    - "你从上面掉下来了，但我知道你不会在这儿逗留。\n你的锤子已经不在了，你的跳跃也不强，但你的饥饿会告诉你。"
+    - "당신은 위에서 떨어졌지만, 여기에 더 이상 머물지 않을 것을 알 수 있습니다. \n당신의 망치와 점프는 더 이상 강하지 않으며, 배고픔이 말해주고 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_54
+    TermType: 0
+    Description:
+    Languages:
+    - "A leap of faith would be insufficient, five leaps will prove your faith in this religion. \nThe first drop can send you back to the anvil, the fifth will do something more substantial."
+    - "Прыжка веры не хватит, пять прыжков подтвердят твою веру в эту религию.\nПервая пропасть вернёт тебя к наковальне, но пятая сделает кое-что посерьёзней."
+    - "心意気だけでは、不十分。ここで真の心意気を体現するのは、5つの跳躍。\n 最初の落下で、金床にたどり着き、5つ目はもっと基本的な何か。"
+    - "信仰的飞跃是不够的，五个跃进将证明你对这个宗教的信仰。\n 第一次可以让你回到铁砧，第五次会助你做更重要的事情。"
+    - "믿음의 도약은 불충분할 것이며, 다섯 가지 도약이 이 종교에 대한 당신의 믿음을 증명할 것입니다. \n첫 추락은 당신을 모루에게 보냈습니다, 다섯 번째는 더 실질적인 것입니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_55
+    TermType: 0
+    Description:
+    Languages:
+    - "What's holding these rocks in the air, in buoyant tranquility?\nThey laugh at your feeble inability to stay aloft. Scoff at your servility to gravity. "
+    - "Что держит эти камни в воздухе, в плавучем спокойствии?\nОни смеются над твоей немощностью, над твоей неспособностью оставаться в воздухе. Глумятся над твоим гравитационным рабством."
+    - "この岩を、平静なる浮力により宙にとどめし物とは。\n 空中に浮き上がることのできない哀れな体を、彼らは笑う。重力に逆らうことのできない服従した心を、彼らは嘲る。"
+    - "在宁静的气氛中，是什么把这些石头悬在空气中呢？\n 他们嘲笑你无力保持在高处。挖苦你臣服于地心引力。"
+    - "공중에서 암석을 지탱하고 있는 것은 무엇입니까? \n그들은 당신이 연약하게 하늘에 머무르고 있던 것을 비웃습니다, \n중력에 복종하는 것을 비웃고 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_56
+    TermType: 0
+    Description:
+    Languages:
+    - "This gets more frightening each time you return. \nKnuckles whitening, stomach tightening, once bitten, so many times burned. "
+    - "Становится страшнее каждый раз, когда возвращаешься.\nКостяшки белеют, живот плотнеет, семь раз отмерь, семь раз отреж.\n"
+    - "帰ってくるたびに、恐怖は増すもの。\n 拳は震え、腹は縮み込み、数々の傷を負い、それでも進むべし。"
+    - "每次你回来都会变得更可怕。\n 关节发白，腹部勒紧，一旦被咬，多次烧伤。"
+    - "이것은 당신이 돌아올 때마다 더 무서워집니다. \n하얗게 질린 손가락, 위 조임, 놀란 가슴, 여러 번의 상처."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_57
+    TermType: 0
+    Description:
+    Languages:
+    - 'I defeated the bucket on my first try. That convinced me it was easy. Then came the second, twelfth, the fiftieth try. That convinced me it was good. '
+    - Я победил ведро с первой попытки. Тогда я убедился, что оно простое. Затем наступила вторая, двенадцатая и пятидесятая попытка. Тогда я убедился, что оно хорошее.
+    - 私は、一回目の挑戦で、バケツを攻略。楽勝と感じた。それで、また二度、十二度、十五度と戻ってきて…今度は、妙なやりがいを感じた。
+    - 我第一次尝试就击败了这个桶。这让我相信我很容易就能做到。接着是第二次，第十二次，第五十次尝试。这让我相信还不错。
+    - 저는 첫 번째 시도에서 양동이를 격파했습니다. 이것이 쉽다는 것을 확신할 수 있었습니다. 그런 다음 두 번째, 12번째, 50번째 시도가 있었습니다. 이것이 좋았다고 확신했습니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_58
+    TermType: 0
+    Description:
+    Languages:
+    - If the bucket’s too tricky there’s always the snake, if you need to say "…" but maybe that’s a mistake. You can just take a break.
+    - Если ведро слишком сложное, то всегда есть змея, если тебе нужно сказать «...», но, возможно, это ошибка. Ты можешь просто отдохнуть.
+    - もしバケツが難しすぎるなら、蛇を使うという手も。それでもまだ「…」となるなら、単なる間違いかも。そんな時にはとりあえず、休憩しましょう。
+    - 如果水桶太棘手，总会有蛇出现，如果你需要说“……”，但也许这是一个错误。您可以休息一下。
+    - 양동이가 너무 까다롭다면, 이곳엔 항상 뱀이 있었습니다, "…" 하지만 이것은 어쩌면 실수 일수도 있습니다. 휴식을 취해보세요.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: OBSERVATION_59
+    TermType: 0
+    Description:
+    Languages:
+    - The first time you got here you thought you were safe. A base camp for reaching the summit. That's how it seemed on its face, the first time, but your face can fall fast when you plummet.
+    - Когда ты сюда пришёл в первый раз, то думал что в безопасности. Перевалочный пункт на пути к вершине. Так казалось на первый взгляд, но взгляды переменчивы когда ты летишь вниз.
+    - "最初にここにたどり着いたとき、安全地帯だと思った。\nそれは、頂上を目指す前に休憩をするためのベースキャンプのよう。最初はそう見える。\nしかし、ひとたび急降下すると、あまりの速さに蒼白するもの。"
+    - "第一次来到这里的时候，您以为是安全的。一个可以到达山顶的大本营。\n但这只是表面上看起来，当你直线下降的时候，你很快就会不开心了。"
+    - "당신이 처음에 여기 왔을 때 정상에 도달하기 위한 기본 캠프로서 안전하다고 생각했었습니다. \n그것이 처음 직면했을 때의 감정 이였다면, 추락할 때는 빨리 울상을 지을 수도 있습니다."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_BAD
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Bad
+    - Плохо
+    - 悪い
+    - 差
+    - 낮음
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_EXTREME
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Extreme
+    - Экстремально
+    - 極限
+    - 极好
+    - 아주높음
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_GOOD
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Good
+    - Хорошо
+    - 良い
+    - 好
+    - 높음
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_GREAT
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Great
+    - Великолепно
+    - 素晴らしい
+    - 很好
+    - 매우높음
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_MEDIOCRE
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Mediocre
+    - Посредственно
+    - 普通
+    - 一般
+    - 보통
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: QUALITY_WORST
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Worst
+    - Ужасно
+    - 悪い
+    - 最差
+    - 나쁜
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Quality
+    TermType: 0
+    Description: Graphical quality setting
+    Languages:
+    - Quality
+    - Качество
+    - クオリティ
+    - 画面质量
+    - 품질
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Quit
+    TermType: 0
+    Description:
+    Languages:
+    - Quit
+    - Выход
+    - やめる
+    - 退出
+    - 종료
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Resolution
+    TermType: 0
+    Description: Screen resolution setting
+    Languages:
+    - Resolution
+    - Разрешение
+    - 解像度
+    - 屏幕分辨率
+    - 해상도
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Resume
+    TermType: 0
+    Description: Resume game from pause
+    Languages:
+    - Resume
+    - Продолжить
+    - 再開
+    - 继续游戏
+    - 재개하다
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: START_NEW_GAME
+    TermType: 0
+    Description: Button to start new game
+    Languages:
+    - New Game
+    - Новая Игра
+    - 最初からやり直す
+    - 开始新游戏
+    - 새로운 게임
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Settings
+    TermType: 0
+    Description:
+    Languages:
+    - Settings
+    - Настройки
+    - 設定
+    - 设置
+    - 설정
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Show mouse cursor
+    TermType: 0
+    Description:
+    Languages:
+    - Show mouse cursor
+    - Показать курсор
+    - マウスカーソルを表示
+    - 显示鼠标指针
+    - 마우스 커서 표시
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Subtitles
+    TermType: 0
+    Description:
+    Languages:
+    - Subtitles
+    - Субтитры
+    - 字幕
+    - 字幕
+    - 자막
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Trackpad
+    TermType: 0
+    Description:
+    Languages:
+    - Trackpad
+    - Трекпад
+    - トラックパッド
+    - 触控板
+    - 트랙패드
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Use trackpad tuning
+    TermType: 0
+    Description: '''Tuning'' in the sense that you tune an engine'
+    Languages:
+    - Use trackpad tuning
+    - Использовать режим трекпада
+    - トラックパッドモード
+    - 使用触控板
+    - 트랙패드 튜닝 사용
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Voiceover volume
+    TermType: 0
+    Description:
+    Languages:
+    - Voiceover volume
+    - Громкость голоса
+    - ナレーションの量
+    - 人声音量
+    - 음성 해설 볼륨
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Want to see the reward
+    TermType: 0
+    Description: This refers to the reward for finishing the game.
+    Languages:
+    - Welcome to the top of the mountain.
+    - Добро пожаловать на вершину горы.
+    - 山の頂上へようこそ
+    - 欢迎来到山顶
+    - 산 정상에 오신 것을 환영합니다.
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: What kind of pointer are you using
+    TermType: 0
+    Description: (pointing device as in, mouse or trackpad)
+    Languages:
+    - What kind of pointer are you using?
+    - Какое устройство ввода вы используете?
+    - どんな種類のポインタを使用していますか？
+    - 你使用什么样的指针？
+    - 어떤 종류의 포인터를 사용하고 있습니까?
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: YES
+    TermType: 0
+    Description: (Accepting an invitation)
+    Languages:
+    - Yes
+    - Да
+    - はい
+    - 是的
+    - 예
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: You can change this setting later
+    TermType: 0
+    Description:
+    Languages:
+    - (You can change this setting later)
+    - (Вы можете изменить эту настройку позднее)
+    - （この設定は後で変更可能です）
+    - (您可以稍后更改此设置)
+    - (나중에 이 설정을 변경하실 수 있습니다)
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: null
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Souvenir Shop
+    TermType: 0
+    Description:
+    Languages:
+    - Souvenir Shop
+    - Магазин Сувениров
+    - お土産店
+    - 纪念品商店
+    - 기념품 가게
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: DIALOG_10
+    TermType: 0
+    Description:
+    Languages:
+    - "Maybe this is what this digital culture is.\nA monstrous mountain of trash,\nthe ash-heap of creativity's fountain.\nA landfill with everything we ever thought of in it\nGrand, infinite, and unsorted."
+    - "Может это и есть эта цифровая культура.\nЧудовищная гора мусора,\nкуча пепла от фонтана творчества.\nСвалка, где есть всё, о чём мы когда-либо подумали\nВеликая, бесконечная и беспорядочная"
+    - "多分これは、このデジタル文化があるものです。\nゴミの巨大な山、\n創造性の噴水の灰ヒープ。\n私たちが今までそれで考えるすべてのものとの埋立\nグランド無限、およびソートされていません。"
+    - "也许这就是数字文化。\n 一个巨大的垃圾山，\n 也是创造力源泉的灰堆。\n 这个垃圾填埋场，拥有着我们所能想到的所有东西，\n 巨大，无穷，无序。"
+    - "어쩌면 이런 것들이 디지털 문화입니다. \n괴물 같은 쓰레기 산, 창의적인 분수대의 화산재 더미, \n우리가 생각한 모든 것을 담고 있는 매립지; \n크고, 무한하고 무궁무진한."
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Sensitivity
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Sensitivity
+    - Чувствительность
+    - 感度
+    - 灵敏度
+    - 감광도
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Send Bennett an Email
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Send Bennett an Email
+    - Отправить письмо на Bennett
+    - ベネットにメールをお送りください
+    - 贝内特发送电子邮件
+    - 베넷에게 이메일 보내기
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Review this Game
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Review this Game
+    - Обзор этой игры
+    - このゲームをレビュー
+    - 查看此游戏
+    - 이 게임을 검토
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Visit the Gift Shop
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Visit the Gift Shop
+    - Посетите магазин подарков
+    - ギフトショップをご覧ください
+    - 光顾礼品店
+    - 기프트 숍을 방문
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Back to Title
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Back to Title
+    - Вернуться к Разделу
+    - 戻るタイトルへ
+    - 回到标题
+    - 돌아 가기 제목에
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Streaming
+    TermType: 0
+    Description:
+    Languages:
+    - Streaming
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Потоковый
+    - ストリーミング
+    - 流
+    - 스트리밍
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Start Streaming
+    TermType: 0
+    Description:
+    Languages:
+    - Start Streaming
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Начать Потоковое
+    - ストリーミングを開始
+    - 开始直播
+    - 스트리밍 시작
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Pause Streaming
+    TermType: 0
+    Description:
+    Languages:
+    - Pause Streaming
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Пауза Потокового
+    - ストリーミングを一時停止
+    - 暂停流
+    - 스트리밍 일시 정지
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Stop Streaming
+    TermType: 0
+    Description:
+    Languages:
+    - Stop Streaming
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Остановить Потоковое
+    - ストリーミングを停止
+    - 关闭直播
+    - 스트리밍을 중지
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Share URL
+    TermType: 0
+    Description:
+    Languages:
+    - Share URL
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Доля URL
+    - 共有URL
+    - 分享链接
+    - 공유 URL
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Start Recording
+    TermType: 0
+    Description:
+    Languages:
+    - Start Recording
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 録音を開始
+    - 开始录制
+    - 녹화를 시작합니다
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Stop Recording
+    TermType: 0
+    Description:
+    Languages:
+    - Stop Recording
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Остановки Записи
+    - 録画を停止
+    - 停止录制
+    - 정지 녹음
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Pause Recording
+    TermType: 0
+    Description:
+    Languages:
+    - Pause Recording
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Sign in to Gamecenter
+    TermType: 0
+    Description:
+    Languages:
+    - Sign in to Gamecenter
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Sign into Gamecenter
+    - Вход в GameCenter
+    - ゲームセンターにログインしてください
+    - 登入Game Center
+    - 게임 센터에 로그인
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Leaderboards
+    TermType: 0
+    Description:
+    Languages:
+    - Leaderboards
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Leaderboards
+    - リーダーボード
+    - 排行榜
+    - 리더
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Input Acceleration
+    TermType: 0
+    Description:
+    Languages:
+    - Input Acceleration
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Начальное Ускорение
+    - 入力加速度
+    - 输入加速度
+    - 입력 가속
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Standard
+    TermType: 0
+    Description:
+    Languages:
+    - Standard
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Стандарт
+    - 標準
+    - 标准
+    - 표준
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Low
+    TermType: 0
+    Description:
+    Languages:
+    - Low
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Низкий
+    - 低いです
+    - 低
+    - 낮은
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: High
+    TermType: 0
+    Description:
+    Languages:
+    - High
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Высокая
+    - 高い
+    - 高
+    - 높은
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Gameplay
+    TermType: 0
+    Description:
+    Languages:
+    - Input
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Gameplay
+    - Игры
+    - ゲームプレイ
+    - 游戏
+    - 게임 플레이
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: AudioVisual
+    TermType: 0
+    Description:
+    Languages:
+    - Streaming
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Audio/Visual
+    - Аудио / Видео
+    - 視聴覚
+    - 音频/视频
+    - 비주얼 / 오디오
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Graphics Quality
+    TermType: 0
+    Description:
+    Languages:
+    - Graphics Quality
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Качество Графики
+    - グラフィックの質
+    - 图形质量
+    - 그래픽 품질
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Beautiful
+    TermType: 0
+    Description:
+    Languages:
+    - Beautiful
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Красивая
+    - 綺麗な
+    - 美丽
+    - 아름다운
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: 60 Frames Per Second
+    TermType: 0
+    Description:
+    Languages:
+    - 60 Frames Per Second
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 60 Кадров В Секунду
+    - 毎秒60のフレーム
+    - 每秒60帧
+    - 초당 60 프레임
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Battery Saver
+    TermType: 0
+    Description:
+    Languages:
+    - Battery Saver
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - Батарей
+    - バッテリーセーバー
+    - 省电
+    - 배터리 세이버
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: gfxStreaming
+    TermType: 0
+    Description:
+    Languages:
+    - Battery Saver
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Streaming
+    - Потоковый
+    - ストリーミング
+    - 流
+    - 스트리밍
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Language
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Language
+    - Язык
+    - 言語
+    - 语言
+    - 언어
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Best
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Best
+    - Лучшие
+    - ベスト
+    - 最佳
+    - 베스트
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Term: Wins
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Wins
+    - Выигрыши
+    - 勝つ
+    - 胜
+    - 승리
+    Flags:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Russian
+    Code: ru
+    Flags: 0
+  - Name: Japanese
+    Code: ja
+    Flags: 0
+  - Name: Chinese (Simplified)
+    Code: zh-CN
+    Flags: 0
+  - Name: Korean
+    Code: ko
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets:
+  - {fileID: 11400000, guid: 62853f41c98d8834a811735f0b8575ca, type: 2}
+  - {fileID: 11400000, guid: 68ba84c7910480f4dab5fcbc918d8bd1, type: 2}
+  - {fileID: 11400000, guid: 37b3ea6e841ce244084561bd3f634918, type: 2}
+  - {fileID: 11400000, guid: fad95e377e5be964bb74e3ce602769fc, type: 2}
+  - {fileID: 11400000, guid: 031d4f3e16d85f14a8b17121399af4ce, type: 2}
+  - {fileID: 11400000, guid: bfe11791081f1f9489968447245fe0dd, type: 2}
+  - {fileID: 2800000, guid: 5ec270b2a03c7cc4cbc512347db13bea, type: 3}
+  - {fileID: 2800000, guid: a61f79caaee12584d819fcc334ece2c1, type: 3}
+  - {fileID: 2800000, guid: aeee2aa579f14934bbd425ce676c5ab7, type: 3}
+  - {fileID: 11400000, guid: 2cd83d5e95f71434085f3d933fc68e9c, type: 2}
+  - {fileID: 11400000, guid: 0f0a059ece6e38e41af48e34132f1a3f, type: 2}
+  - {fileID: 11400000, guid: 604deb5e244ec8d4292424af2e81e230, type: 2}
+  - {fileID: 11400000, guid: 6d53b4b90d3b81f439fa7e422ecd29ee, type: 2}
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
+  mTerm_AppName:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1387285522871622}
+  m_IsPrefabParent: 1

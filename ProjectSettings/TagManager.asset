@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DebugSpawner
+  - Canvas
+  - SettingsManager
+  - BackgroundCamera
+  - PotMesh
+  - PlayerMesh
+  - HammerMesh
+  - Cumulus
+  - Stratus
+  - Space
+  - SpaceParticles
+  - SnowParticles
+  - WaterParticles
+  - DebrisParticles
+  - SparkParticles
+  - MirrorRenderer
+  - MobileManager
+  - Obsolete
+  - GravityWell
+  - FogVolumeData
+  - PrettyButton
+  - SixtyFPSButton
+  - BatterySaverButton
+  - StreamingButton
+  - FogVolumeSurrogate
+  - Rock
+  - GravityControl
+  - Narrator
+  - BatCam
+  - UICam
+  - TreeCam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Pole
+  - Terrain
+  - Sky
+  - Background
+  - FogVolumeShadowCaster
+  - FogVolume
+  - FogVolumeSurrogate
+  - Tree
+  - FogVolumeUniform
+  - Rope
+  - Illuminator
+  - Bat
+  - Util
+  - Pause
+  - DoNotCull
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1856409611
+    locked: 0
+  - name: Tree
+    uniqueID: 3341262179
+    locked: 0
+  - name: Terrain
+    uniqueID: 1340931267
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Arms
+    uniqueID: 1599742399
+    locked: 0
+  - name: Front
+    uniqueID: 2657897535
+    locked: 0
+  - name: UI
+    uniqueID: 48156863
+    locked: 0
